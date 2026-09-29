@@ -493,6 +493,24 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Published in commit `e2d8e05`; the live page and stylesheet match the profile-timeline configuration. Full feed loading remains unverified because X returns HTTP 429 in browser testing.
 
+## 2026-09-29 — Restore three individual Twitter embeds
+
+### Completed
+
+- Replaced the failing full-profile timeline with three official individual tweet embeds, newest first, in a keyboard-accessible scrollable panel.
+- Used the three newest authored posts discoverable through the public profile mirror and verified through X’s official oEmbed endpoint: May 16, May 14, and May 13, 2026.
+- Retained the full-profile link and versioned the stylesheet. These are a fixed selection, not an automatically refreshing feed.
+
+### Validation and observations
+
+- All three tweets rendered with the expected author and text in Chrome at desktop (1440 × 1000) and mobile (320 × 800) sizes.
+- Verified keyboard scrolling, access to the last tweet, no horizontal overflow, and clean whitespace checks.
+- The public mirror is stale and the full X profile remains inaccessible; these cannot be confirmed as the account’s current latest three posts. Explained this limitation to the user.
+
+### Remaining work
+
+- Publish and verify the live page and stylesheet.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.

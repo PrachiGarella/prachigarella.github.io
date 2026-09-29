@@ -97,15 +97,43 @@
 	margin-bottom: 0;
 }
 
-.twitter-profile {
+.twitter-scroll {
 	max-width: 600px;
+	max-height: min(650px, 75vh);
 	margin: 0 auto;
+	padding: 1rem;
+	overflow-y: auto;
+	overscroll-behavior-y: contain;
+	scrollbar-gutter: stable;
+	scrollbar-color: #e44c65 #272833;
+	border: 1px solid rgba(255, 255, 255, 0.15);
 	border-radius: 6px;
-	overflow: hidden;
+	background: rgba(255, 255, 255, 0.025);
 }
 
-.twitter-profile iframe {
-	max-width: 100%;
+.twitter-scroll:focus-visible {
+	outline: 2px solid #e44c65;
+	outline-offset: 4px;
+}
+
+.twitter-post {
+	min-width: 0;
+}
+
+.twitter-post + .twitter-post {
+	margin-top: 1.5rem;
+}
+
+.twitter-post .twitter-tweet {
+	margin: 0 auto !important;
+}
+
+.twitter-post blockquote {
+	font-size: 1em;
+	font-style: normal;
+	padding: 1.5rem;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 6px;
 }
 
 @media screen and (max-width: 980px) {
@@ -115,6 +143,10 @@
 }
 
 @media screen and (max-width: 736px) {
+	.twitter-scroll {
+		padding: 0;
+	}
+
 	.instagram-grid {
 		grid-template-columns: minmax(0, 1fr);
 	}
