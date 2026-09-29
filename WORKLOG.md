@@ -491,7 +491,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the profile-timeline markup and stylesheet. Full feed loading remains dependent on X resolving its rate limit for the visitor.
+- Published in commit `e2d8e05`; the live page and stylesheet match the profile-timeline configuration. Full feed loading remains unverified because X returns HTTP 429 in browser testing.
 
 ## Entry template
 
