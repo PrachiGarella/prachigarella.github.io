@@ -457,6 +457,24 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Browser checks passed at 1440, 390, and 320 pixels: six previews loaded, links present, and no horizontal overflow. Whitespace checks passed. Published in commit `60646bc`; the live page and new preview match local files. No remaining work.
 
+## 2026-09-29 — Make Twitter posts scroll within a panel
+
+### Completed
+
+- Stacked the two working tweet embeds vertically inside a bounded scrollable panel on `Social-Media.html`.
+- Added a visible scrollbar style, keyboard focus support, and a mobile-friendly height limit in `assets/css/social-media.css`.
+- Versioned the stylesheet link so returning visitors receive the updated layout.
+
+### Validation and observations
+
+- Both embeds rendered in Chrome at desktop (1440 × 1000) and mobile (320 × 800) sizes.
+- Confirmed Page Down scrolls the panel, the second tweet is reachable, and neither panel nor page overflows horizontally.
+- Passed whitespace checks; the Instagram selection remains unchanged.
+
+### Remaining work
+
+- Publish and verify the scrollable Twitter panel on the live site.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
