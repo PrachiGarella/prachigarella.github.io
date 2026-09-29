@@ -552,6 +552,24 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `01a29f6`; live HTML, stylesheet, and converted JPEG exactly match the tested local files.
 
+## 2026-09-29 — Add photos to both After5 talks
+
+### Completed
+
+- Added the user’s new photos above their matching After5 talk descriptions on `Outreach.html`.
+- Matched `IMG_9613.heic` to the August 18 arrow-of-time talk and `IMG_6205.heic` to the April 1 quantum-fields talk using capture dates and the visible venues.
+- Created browser-compatible 1200 × 1600 JPEGs, `images/after5-mystery-of-time.jpg` and `images/after5-quantum-fields.jpg`, while preserving the original HEIC files.
+- Added responsive photo styling, descriptive alt text, explicit dimensions, lazy loading, and a fresh stylesheet version. Photos retain their full original proportions.
+
+### Validation and observations
+
+- Chrome checks passed at 1440, 768, 390, and 320 pixels: all five page images decode, image proportions are preserved, section navigation works, and there is no horizontal overflow.
+- HTML nesting and whitespace checks passed; visually inspected the desktop layout.
+
+### Remaining work
+
+- Publish and verify the live page, stylesheet, and both new photos.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.

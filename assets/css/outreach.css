@@ -9,6 +9,8 @@
 .outreach-eyebrow { color: #e44c65; font-size: 0.8em; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.6rem; }
 .talk-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
 .talk-card { display: flex; flex-direction: column; padding: 2rem; border: 1px solid rgba(255,255,255,0.15); border-top: 3px solid #e44c65; border-radius: 6px; background: rgba(255,255,255,0.025); }
+.talk-photo { margin: 0 0 1.5rem; }
+.talk-photo img { display: block; width: 100%; height: auto; border-radius: 4px; }
 .talk-card h4 { font-size: 1.35em; line-height: 1.45; margin-bottom: 0.85rem; }
 .talk-date { color: #fff; font-size: 0.85em; margin-bottom: 1rem; }
 .talk-venue { font-size: 0.85em; margin-bottom: 1.25rem; }
