@@ -1,0 +1,21 @@
+/* Episode players and listening links. */
+.podcast-video {
+	width: 100%;
+	max-width: 56rem;
+	margin: 0 0 1.5em;
+}
+
+.podcast-video iframe {
+	display: block;
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	aspect-ratio: 16 / 9;
+	border: 0;
+	border-radius: 4px;
+	background: #000;
+}
+
+#content .button .icon {
+	margin-right: 0.5em;
+}
