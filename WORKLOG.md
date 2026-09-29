@@ -420,7 +420,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the updated page, stylesheet, sixth preview, and tweet embeds on the live website.
+- None. Published in commit `2f46fa3`. Live page, stylesheet, and sixth preview match local files; live Chrome verification confirmed six Instagram cards, the requested wording, and both tweets successfully rendered.
 
 ## Entry template
 
