@@ -338,7 +338,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the corrected homepage text.
+- None. Published in commit `3bb4108`; the live homepage returns HTTP 200 and matches the corrected After5 text.
 
 ## Entry template
 
