@@ -568,7 +568,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the live page, stylesheet, and both new photos.
+- None. Published in commit `853bab4`; live HTML, stylesheet, and both JPEGs exactly match the verified local files.
 
 ## Entry template
 
