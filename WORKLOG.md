@@ -143,6 +143,24 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None for this publication.
 
+## 2026-09-29 — Update the website CV
+
+### Completed
+
+- Located the user’s new CV at `assets/resume.pdf` and confirmed it is a PDF document.
+- Updated the existing CV button in `Research.html` to open `assets/resume.pdf`.
+- Prepared the new PDF, Research page link change, and worklog for publication. Existing unrelated file changes are excluded.
+
+### Validation and observations
+
+- Searched the website pages for CV/resume links; the Research page contains the only CV link.
+- Confirmed the new link resolves to the local PDF and the diff passes whitespace checks with existing CRLF line endings recognized.
+- Fetched the remote repository and confirmed `main` was up to date before publication.
+
+### Remaining work
+
+- Publish and verify the Research page link and PDF on the live website.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
