@@ -588,7 +588,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the book blog, stylesheet, and cover images on the live website.
+- None. Published in commit `9a60d8e`; live HTML, stylesheet, and all three cover images exactly match the verified local files.
 
 ## Entry template
 
