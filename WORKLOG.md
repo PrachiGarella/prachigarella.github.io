@@ -663,6 +663,25 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `890602f`; live podcast and homepage HTML match the corrected files.
 
+## 2026-09-29 — Match Season 2 episodes 1–3 to the podcast layout
+
+### Completed
+
+- Formatted Andreas Karch (S2E3), Kaden Hazzard (S2E2), and René Bellwied (S2E1) with the same article structure, anchored headings, dates, concise summaries, embedded players, separators, and platform-button rows as the other episodes.
+- Grouped each episode’s YouTube, Apple Podcasts, and Spotify links into one actions list, standardized the Apple Podcasts label, and added accessible button descriptions.
+- Shortened the existing episode introductions and corrected the mismatched pronouns/typos in the Bellwied description.
+- Verified publication dates from Apple Podcasts page metadata: June 20, May 23, and April 18, 2025. Original video and listening destinations are preserved.
+
+### Validation and observations
+
+- Chrome layout checks passed at 1440, 390, and 320 pixels: matching structure compared with episode 4, all platform icons/links present, and no horizontal overflow.
+- Verified all fourteen episodes are structured as articles and passed whitespace checks.
+- External media requests were blocked during layout checks; embedded video URLs and player attributes remain unchanged.
+
+### Remaining work
+
+- Publish and verify the updated podcast page.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
