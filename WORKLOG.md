@@ -323,7 +323,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and confirm the updated homepage is live.
+- None. Published in commit `62c9c46`; the live homepage returns HTTP 200 and matches the updated local HTML.
 
 ## Entry template
 
