@@ -610,7 +610,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the live homepage, stylesheet, and optimized images.
+- None. Published in commit `db4dc65`; the live root page, stylesheet, and both optimized images exactly match the verified local files.
 
 ## Entry template
 
