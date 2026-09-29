@@ -267,6 +267,22 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None for this research publication update.
 
+## 2026-09-29 — Hide Accessible Work
+
+### Completed
+
+- Commented out the Accessible Work heading, its four PDF links, and the preceding divider in `Research.html` at the user’s request.
+- Preserved the section in the HTML source for easy restoration and retained the PDF files.
+
+### Validation and observations
+
+- Parsed the HTML to confirm the section is absent from visible text and active links, the document remains balanced, and all three publications and the CV link remain available.
+- Passed diff whitespace checks; unrelated local changes are excluded from publication.
+
+### Remaining work
+
+- Publish and verify the section is hidden on the live Research page.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
