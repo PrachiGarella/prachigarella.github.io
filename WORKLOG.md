@@ -526,7 +526,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the four-post page is live.
+- None. Published in commit `d689ff2`; verified the live page contains all four supplied September posts and matches the tested local HTML.
 
 ## Entry template
 
