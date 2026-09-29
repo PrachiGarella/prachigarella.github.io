@@ -590,6 +590,28 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `9a60d8e`; live HTML, stylesheet, and all three cover images exactly match the verified local files.
 
+## 2026-09-29 — Redesign the homepage
+
+### Completed
+
+- Replaced the full-screen spotlight layout with a clear introduction and shorter sections for research, outreach, The Knowmads Podcast, books, social media, and contact.
+- Kept the chosen mountain-lake portrait with the name, preserving its proportions; added a concise research introduction and direct research/CV/contact links.
+- Added direct desktop navigation and a keyboard-accessible native mobile menu, a skip link, semantic headings, and a descriptive page title/meta description.
+- Preserved the approved single-paragraph outreach statement and featured an actual After5 talk photo. Linked to the existing Scott Aaronson episode on the podcast page.
+- Retained the site’s dark palette with a softer pink accent and serif display headings in homepage-only `assets/css/home.css`.
+- Removed unused homepage parallax/animation dependencies and repaired the old malformed navigation and dead next-section link. The homepage works without JavaScript.
+- Created smaller copies of the research photo and podcast artwork: about 407 KiB combined instead of approximately 3.9 MiB. Kept the original assets.
+
+### Validation and observations
+
+- HTML structure, unique IDs, local file links, in-page links, and whitespace checks passed.
+- Chrome checks passed at 1440, 1024, 768, 390, and 320 pixels: images load at their correct proportions, navigation works, and there is no horizontal overflow.
+- Visually inspected desktop and phone layouts; repeated desktop/mobile checks after image optimization.
+
+### Remaining work
+
+- Publish and verify the live homepage, stylesheet, and optimized images.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
