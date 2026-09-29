@@ -550,7 +550,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the outreach page, stylesheet, and converted photo on the live website.
+- None. Published in commit `01a29f6`; live HTML, stylesheet, and converted JPEG exactly match the tested local files.
 
 ## Entry template
 
