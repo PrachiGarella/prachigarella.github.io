@@ -340,6 +340,21 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `3bb4108`; the live homepage returns HTTP 200 and matches the corrected After5 text.
 
+## 2026-09-29 — Remove the second homepage outreach paragraph
+
+### Completed
+
+- Removed the paragraph about APS and WiPS roles from the homepage Outreach section at the user’s request.
+- Retained the After5 introduction, page link, and photo caption.
+
+### Validation and observations
+
+- Reviewed the diff and passed whitespace checks.
+
+### Remaining work
+
+- Publish and verify the paragraph removal.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
