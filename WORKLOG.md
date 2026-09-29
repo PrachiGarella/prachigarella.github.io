@@ -509,7 +509,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the live page and stylesheet.
+- Published in commit `83d2d56`; live HTML and CSS match the tested files. Current-post freshness remains unverified because X’s full profile is inaccessible.
 
 ## Entry template
 
