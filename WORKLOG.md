@@ -196,6 +196,23 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Publish and verify the updated homepage and image on the live site.
 
+## 2026-09-29 — Homepage portrait publication verified
+
+### Completed
+
+- Published the new homepage portrait in commit `ed0d9ac` on `main`.
+- Verified [prachigarella.com](https://prachigarella.com/) now uses `images/prachi-home.jpg` beside Prachi’s name.
+
+### Validation and observations
+
+- Inspected the desktop Chrome preview after the loading animation: the photo fills the circular frame with Prachi’s face visible and without stretching.
+- The live homepage, JPEG, and stylesheet return HTTP 200. The published JPEG and stylesheet match the local files byte for byte.
+- The original HEIC remains local and unchanged; unrelated file changes were not published.
+
+### Remaining work
+
+- None for this homepage photo update.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
