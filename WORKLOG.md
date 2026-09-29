@@ -645,7 +645,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the caption on the live homepage.
+- None. Published in commit `697e31f`; verified the revised caption on the live homepage.
 
 ## Entry template
 
