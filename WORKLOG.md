@@ -455,7 +455,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Browser checks passed at 1440, 390, and 320 pixels: six previews loaded, links present, and no horizontal overflow. Whitespace checks passed. Publication verification pending.
+- Browser checks passed at 1440, 390, and 320 pixels: six previews loaded, links present, and no horizontal overflow. Whitespace checks passed. Published in commit `60646bc`; the live page and new preview match local files. No remaining work.
 
 ## Entry template
 
