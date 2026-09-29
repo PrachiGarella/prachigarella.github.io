@@ -396,6 +396,12 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Published in commit `4810098`; the live page, stylesheet, and all five preview images match the verified local files. X’s external rate limit may continue to prevent timeline loading for some visitors.
 
+## 2026-09-29 — Update Instagram section wording
+
+- Changed “Five recent posts and reels from” to “Latest posts from” on the Social Media page.
+- Checked that only the requested visible wording changed; post previews and links are retained.
+- Publication verification pending.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
