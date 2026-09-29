@@ -251,6 +251,22 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Publish and verify the updated Research page on the live site.
 
+## 2026-09-29 — Research publications deployment verified
+
+### Completed
+
+- Published commit `8f10539` to `main`; GitHub Pages reports a successful deployment.
+- Confirmed the live [Research page](https://prachigarella.com/Research.html) includes all three papers, their arXiv and PDF links, and the Physical Review D journal link.
+
+### Validation and observations
+
+- The public page returns HTTP 200 and matches the updated local HTML with normalized line endings.
+- The CV and accessible-work links remain present.
+
+### Remaining work
+
+- None for this research publication update.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
