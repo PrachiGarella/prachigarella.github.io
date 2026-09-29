@@ -400,7 +400,27 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Changed “Five recent posts and reels from” to “Latest posts from” on the Social Media page.
 - Checked that only the requested visible wording changed; post previews and links are retained.
-- Publication verification pending.
+- Published in commit `a1f2894`; live verification is included with the six-post and Twitter fix below.
+
+## 2026-09-29 — Add a sixth Instagram post and repair Twitter embeds
+
+### Completed
+
+- Retained “Latest posts from @prachigarella” and expanded the Instagram grid to six distinct physics/science posts.
+- Added the June 3 quantum-vacuum carousel, verified from the connected Instagram account after reviewing posts through July and June.
+- Rechecked the live X timeline and confirmed HTTP 429 (“Rate limit exceeded”) from X’s timeline endpoint.
+- Replaced the failing timeline with two official individual-post embeds: the PRD paper announcement and science-communication post. Retrieved their markup and verified authorship through X’s official oEmbed endpoint.
+- Kept readable tweet text and direct links as fallbacks, plus a link to the full profile.
+
+### Validation and observations
+
+- Both individual tweet embeds successfully displayed author, text, timestamp, and interaction links in Chrome.
+- Confirmed both loaded embeds fit at 320 pixels wide. Six Instagram previews and links passed desktop/mobile checks at 1440, 390, and 320 pixels.
+- Confirmed balanced HTML and passed whitespace checks. Google Fonts was blocked during browser checks for reliability.
+
+### Remaining work
+
+- Publish and verify the updated page, stylesheet, sixth preview, and tweet embeds on the live website.
 
 ## Entry template
 

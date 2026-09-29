@@ -29,11 +29,6 @@
 	margin-right: 0.4em;
 }
 
-.twitter-feed {
-	border-radius: 6px;
-	overflow: hidden;
-}
-
 .social-direct-link {
 	margin-top: 1rem;
 	font-size: 0.9em;
@@ -102,10 +97,27 @@
 	margin-bottom: 0;
 }
 
-.twitter-section {
+.twitter-post-grid {
 	display: grid;
-	grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
-	gap: 2.5rem;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 1.5rem;
+	align-items: start;
+}
+
+.twitter-post {
+	min-width: 0;
+}
+
+.twitter-post .twitter-tweet {
+	margin: 0 auto !important;
+}
+
+.twitter-post blockquote {
+	font-size: 1em;
+	font-style: normal;
+	padding: 1.5rem;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 6px;
 }
 
 @media screen and (max-width: 980px) {
@@ -116,7 +128,7 @@
 
 @media screen and (max-width: 736px) {
 	.instagram-grid,
-	.twitter-section {
+	.twitter-post-grid {
 		grid-template-columns: minmax(0, 1fr);
 	}
 }
