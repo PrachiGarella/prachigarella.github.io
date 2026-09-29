@@ -701,7 +701,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Final responsive checks passed at all four viewport sizes. Publish and verify the live files.
+- None. Final responsive checks passed at all four viewport sizes. Published in commit `53b2df0`; all seven live HTML pages and both changed stylesheets exactly match the tested local files.
 
 ## Entry template
 
