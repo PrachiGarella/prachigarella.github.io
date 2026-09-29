@@ -373,7 +373,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the Research page and its new stylesheet.
+- None. Published in commit `74e0964`; the live Research page and stylesheet both return HTTP 200 and match the verified local files.
 
 ## Entry template
 
