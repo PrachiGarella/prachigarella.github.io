@@ -473,7 +473,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the scrollable Twitter panel on the live site.
+- None. Published in commit `fe9b8f4`; the live page and stylesheet match the locally verified scrollable layout.
 
 ## Entry template
 
