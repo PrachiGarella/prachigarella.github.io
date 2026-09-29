@@ -422,6 +422,24 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `2f46fa3`. Live page, stylesheet, and sixth preview match local files; live Chrome verification confirmed six Instagram cards, the requested wording, and both tweets successfully rendered.
 
+## 2026-09-29 — Balance Instagram science and travel posts
+
+### Completed
+
+- Updated the six-post Instagram selection to four physics/science posts and two travel/personal posts.
+- Retained the latest distinct physics reel, AI/scientists discussion, early-universe carousel, and theoretical-physics reel.
+- Added the September 25 coffee-date post and September 11 Colorado travel post using captions, dates, links, and previews from the connected Instagram account.
+- Renamed the section to “Science, Travel & Life on Instagram,” retained “Latest posts from @prachigarella,” and ordered all six cards newest first.
+
+### Validation and observations
+
+- Retained the previously verified Twitter embeds and existing responsive layout.
+- Checked all six previews and links in Chrome at 1440, 390, and 320 pixels wide; no horizontal overflow. Passed whitespace checks.
+
+### Remaining work
+
+- Check the updated cards and publish the revised selection.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
