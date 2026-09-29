@@ -287,6 +287,22 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Published in commit `f21ccf4`. The live Research page returns HTTP 200 and matches the version with Accessible Work commented out. No remaining work for this change.
 
+## 2026-09-29 — Expand MUSES paper author list
+
+### Completed
+
+- Updated the MUSES paper entry in `Research.html` to list Johannes Jahan, Kevin P. Pala, Yumu Yang, Isabella Danhoni, and Prachi Garella, followed by “et al. (MUSES Collaboration).”
+- Emphasized Prachi’s name consistently with the other paper entries.
+
+### Validation and observations
+
+- Matched the first five authors and their order to the previously verified [arXiv paper](https://arxiv.org/abs/2606.26326) and INSPIRE metadata.
+- Passed diff whitespace checks. Publication links and other entries are unchanged.
+
+### Remaining work
+
+- Publish and confirm the expanded author list is live.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
