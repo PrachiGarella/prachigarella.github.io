@@ -475,6 +475,24 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `fe9b8f4`; the live page and stylesheet match the locally verified scrollable layout.
 
+## 2026-09-29 — Replace selected tweets with the full profile timeline
+
+### Completed
+
+- Removed the two hard-coded tweet embeds and replaced them with the official profile timeline returned by X’s oEmbed endpoint for `@garellaprachi`.
+- Configured a 650-pixel scrollable timeline with replies enabled and no explicit tweet-count limit. X controls which and how many posts its widget serves.
+- Retained a direct link to the full profile if the timeline cannot load, and removed the obsolete selected-post scroll styling.
+
+### Validation and observations
+
+- Checked [X’s official timeline instructions](https://help.x.com/en/using-x/embed-x-feed) and retrieved current embed markup from its official endpoint.
+- Browser testing confirmed the widget script loads and requests the profile timeline, but X responds with HTTP 429 (“Rate limit exceeded”). This external restriction still prevents verifying a working full feed.
+- The profile link remains available regardless of whether the widget loads. Instagram content remains unchanged.
+
+### Remaining work
+
+- Publish and verify the profile-timeline markup and stylesheet. Full feed loading remains dependent on X resolving its rate limit for the visitor.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
