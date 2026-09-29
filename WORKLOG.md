@@ -661,7 +661,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the corrected podcast page and homepage link.
+- None. Published in commit `890602f`; live podcast and homepage HTML match the corrected files.
 
 ## Entry template
 
