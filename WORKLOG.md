@@ -631,7 +631,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the updated pages and shared assets on the live site.
+- None. Published in commit `5e8dfd9`; all seven live pages and four changed CSS/JavaScript assets exactly match the tested local files.
 
 ## Entry template
 
