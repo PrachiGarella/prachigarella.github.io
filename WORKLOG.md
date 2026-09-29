@@ -680,7 +680,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the updated podcast page.
+- None. Published in commit `ad60b0c`; verified the live podcast HTML exactly matches the updated local page.
 
 ## Entry template
 
