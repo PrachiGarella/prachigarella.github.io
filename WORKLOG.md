@@ -283,6 +283,10 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Publish and verify the section is hidden on the live Research page.
 
+### Publication result
+
+- Published in commit `f21ccf4`. The live Research page returns HTTP 200 and matches the version with Accessible Work commented out. No remaining work for this change.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
