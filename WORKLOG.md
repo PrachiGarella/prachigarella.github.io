@@ -633,6 +633,20 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `5e8dfd9`; all seven live pages and four changed CSS/JavaScript assets exactly match the tested local files.
 
+## 2026-09-29 — Refine the homepage photo caption
+
+### Completed
+
+- Reworded the homepage portrait caption to “Rocky Mountain National Park — my toughest hike yet.”
+
+### Validation and observations
+
+- Verified the exact caption replacement and clean whitespace; this is a text-only change.
+
+### Remaining work
+
+- Publish and verify the caption on the live homepage.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
