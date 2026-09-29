@@ -703,6 +703,28 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Final responsive checks passed at all four viewport sizes. Published in commit `53b2df0`; all seven live HTML pages and both changed stylesheets exactly match the tested local files.
 
+## 2026-09-29 — Ideas to revisit in a future session
+
+### Completed
+
+- Recorded the suggested additions following the published visual refresh:
+  - A short “What I’m working on” section explaining the current research question, its importance, and next steps.
+  - Plain-language summaries beside publications, with an explanatory figure where useful.
+  - A public speaking section with talk topics, a recording, and an “Invite me to speak” button.
+  - Three selected milestones near the top of the homepage, such as publications, interviews, or public talks.
+  - Brief personal book reflections alongside ratings.
+  - A dated “Now” note about current research, reading, or upcoming activities.
+
+### Validation and observations
+
+- Recommended starting with plain-language research summaries and a speaking invitation; these are suggestions, not an approved implementation plan.
+- The user asked to save the ideas and return to them later. No website content changes were made for these suggestions.
+- The aesthetic refresh remains published and verified; see the preceding entry for details.
+
+### Remaining work
+
+- Revisit these options when the user resumes the project and choose which additions to develop.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
