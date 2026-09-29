@@ -213,6 +213,44 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None for this homepage photo update.
 
+## 2026-09-29 — Confirm portrait display after cache refresh
+
+### Completed
+
+- Investigated the report that the published portrait appeared stretched despite displaying correctly locally.
+- User confirmed the photo now looks correct before any additional deployment. Removed the temporary, unpublished stylesheet URL change; no website code change was needed.
+
+### Validation and observations
+
+- The live stylesheet matches the local version and includes the correct image height and `object-fit: cover` rules.
+- The stylesheet response permits caching for 600 seconds. An older stylesheet lacked these sizing rules, making stale browser styles a likely explanation for the temporary distortion.
+
+### Remaining work
+
+- None; portrait display confirmed by the user.
+
+## 2026-09-29 — Update research publications
+
+### Completed
+
+- Replaced the single preprint link in `Research.html` with three entries under “Publications and Preprints,” including concise summaries, author information, publication status, and arXiv/PDF links.
+- Added [Thermodynamically Consistent Merging of Multidimensional QCD Equations of State](https://arxiv.org/abs/2608.20526), an SQM 2026 conference proceedings preprint.
+- Added [Studying the QCD Matter produced in Heavy-Ion Collisions using the MUSES Calculation Engine](https://arxiv.org/abs/2606.26326), a MUSES Collaboration preprint.
+- Updated [Merging multidimensional equations of state of strongly interacting matter via a statistical mixture](https://arxiv.org/abs/2601.07987) with its published citation, Physical Review D 113, 114018 (2026), and [journal DOI](https://doi.org/10.1103/pvtc-zdyw).
+- Repaired existing malformed section/list/footer markup and duplicate IDs so the publications remain in the main content column. Corrected the “Accessible Work” heading and retained its PDFs and the latest CV link.
+
+### Validation and observations
+
+- Verified all three papers and Prachi’s authorship against arXiv and [INSPIRE’s author search](https://inspirehep.net/literature?q=a%20Garella%2C%20Prachi), which returned three records.
+- Verified the published journal citation and DOI through arXiv, INSPIRE, and the APS search result. The other entries are labeled as preprints without implying journal publication.
+- Passed checks for balanced HTML, unique IDs, the three publication entries, arXiv/PDF/DOI links, preserved CV and accessible-work links, and diff whitespace.
+- Inspected the publications layout in Chrome with local fallback fonts; all three entries and their links render in the main content column.
+- Existing unrelated local file changes are excluded from publication.
+
+### Remaining work
+
+- Publish and verify the updated Research page on the live site.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
