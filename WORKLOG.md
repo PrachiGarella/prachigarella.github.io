@@ -177,6 +177,25 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None for this CV update.
 
+## 2026-09-29 — Replace the homepage portrait
+
+### Completed
+
+- Located the newly added `images/IMG_4007.heic` and created a browser-compatible JPEG at `images/prachi-home.jpg` (1600 × 1200 pixels).
+- Updated the photo beside Prachi’s name in the homepage banner to use the new image, with descriptive alternative text and valid image dimensions.
+- Updated the banner image rules in both `assets/css/main.css` and `assets/sass/main.scss` so the photo fills the existing circle without stretching.
+- Kept the original HEIC file intact locally; only the JPEG is needed for the website.
+
+### Validation and observations
+
+- Inspected the converted photo and the circular portrait in a mobile-sized Chrome preview.
+- Passed diff whitespace checks. Local `main` matched `origin/main` before preparing this update.
+- Unrelated local CV deletion and `.DS_Store` changes are excluded from publication.
+
+### Remaining work
+
+- Publish and verify the updated homepage and image on the live site.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
