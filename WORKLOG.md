@@ -647,6 +647,22 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `697e31f`; verified the revised caption on the live homepage.
 
+## 2026-09-29 — Correct the Scott Aaronson episode number
+
+### Completed
+
+- Corrected Scott Aaronson’s episode to Season 3, Episode 1, as confirmed by the user.
+- Updated the podcast heading, accessible video title, episode anchor, and homepage featured-episode link.
+
+### Validation and observations
+
+- Confirmed the homepage link targets the corrected podcast heading and no old episode identifier or label remains in the HTML pages.
+- Whitespace checks passed; video and listening URLs remain unchanged.
+
+### Remaining work
+
+- Publish and verify the corrected podcast page and homepage link.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
