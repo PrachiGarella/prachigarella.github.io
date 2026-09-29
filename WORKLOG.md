@@ -682,6 +682,27 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `ad60b0c`; verified the live podcast HTML exactly matches the updated local page.
 
+## 2026-09-29 — Refine the visual design across the website
+
+### Completed
+
+- Added a shared theme with warm serif headings, softer rose accents, consistent spacing, rounded cards and buttons, and clearer active navigation.
+- Gave Research, Outreach, Podcast, Books, and Social Media consistent page introductions and coordinated their cards, photos, metadata, and section headings.
+- Arranged all fourteen podcast episodes with descriptions beside videos on desktop and stacked layouts on phones; added season navigation and retained every player and listening destination.
+- Unified footers, social/contact icons, and dynamic copyright years across all seven HTML pages. Removed superseded homepage footer styles.
+- Retained the approved homepage structure, portrait caption, research content, After5 talks, book selections, and social posts.
+
+### Validation and observations
+
+- Reviewed desktop and mobile screenshots, including research, outreach, podcast, books, and the homepage.
+- Chrome checks cover six public pages at 1440, 768, 390, and 320 pixels: image loading, mobile navigation, footer years, HTML structure, JavaScript errors, horizontal overflow, and mobile content margins.
+- Verified fourteen podcast articles with three listening buttons each, preserved iframe URLs and 16:9 players, six Instagram cards, and four X posts.
+- External media requests are blocked during layout tests; third-party playback is not tested by these checks.
+
+### Remaining work
+
+- Final responsive checks passed at all four viewport sizes. Publish and verify the live files.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
