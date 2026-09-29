@@ -375,6 +375,27 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `74e0964`; the live Research page and stylesheet both return HTTP 200 and match the verified local files.
 
+## 2026-09-29 — Feature Instagram science posts and embed X/Twitter
+
+### Completed
+
+- Added the official X/Twitter timeline for `@garellaprachi` to `Social-Media.html`, with a permanent direct profile link.
+- Featured five recent distinct physics/science Instagram posts with locally stored previews, publication dates, and direct post/reel links: September 21 physics reel, September 16 AI/scientists carousel, August 30 early-universe carousel, August 24 theoretical-physics reel, and August 22 After5 talk.
+- Retrieved captions, publication timestamps, permalinks, and previews through the connected Windsor.ai Instagram account. Queried August 20–September 29; two September 21 reels showed the same clip, so only the newer one is featured.
+- Added `assets/css/social-media.css` for a responsive post grid and horizontal social links with platform logos.
+- Instagram selections are a static snapshot; they do not automatically change when new posts are published.
+
+### Validation and observations
+
+- Checked official [X embed instructions](https://help.x.com/en/using-x/embed-x-feed).
+- Confirmed the X widget script creates the timeline iframe. X returned “Rate limit exceeded” during browser testing, so live feed contents could not be verified; direct links remain available.
+- Chrome checks passed at 1440, 390, and 320 pixels wide: all five previews loaded, all post links were present, and there was no horizontal overflow. Reviewed the desktop screenshot.
+- Confirmed balanced HTML and passed whitespace checks. Browser checks used fallback fonts with Google Fonts blocked for reliability.
+
+### Remaining work
+
+- Publish and verify the social page, stylesheet, and previews. X’s external rate limit may continue to prevent timeline loading for some visitors.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.

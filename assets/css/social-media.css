@@ -1,0 +1,122 @@
+/* Social page embeds and featured posts. */
+.social-page .container {
+	max-width: 70rem;
+}
+
+.social-page .social-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin-left: 0;
+}
+
+.social-page .social-links li {
+	padding: 0;
+	width: auto;
+}
+
+.social-features {
+	margin-top: 3rem;
+	padding-top: 2.5rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-feature {
+	min-width: 0;
+}
+
+.social-feature h3 .icon {
+	margin-right: 0.4em;
+}
+
+.twitter-feed {
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.social-direct-link {
+	margin-top: 1rem;
+	font-size: 0.9em;
+}
+
+.instagram-preview {
+	display: block;
+	border: 0;
+	margin-bottom: 1.5rem;
+}
+
+.instagram-preview img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-height: 620px;
+	object-fit: contain;
+	border-radius: 6px;
+	background: rgba(255, 255, 255, 0.025);
+}
+
+.social-post-date {
+	font-size: 0.85em;
+	margin-bottom: 1rem;
+}
+
+.instagram-section {
+	margin-top: 3rem;
+	padding-top: 2.5rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.instagram-grid {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 1.5rem;
+}
+
+.instagram-card {
+	min-width: 0;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 6px;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.025);
+}
+
+.instagram-card .instagram-preview {
+	margin: 0;
+}
+
+.instagram-card .instagram-preview img {
+	aspect-ratio: 4 / 5;
+	max-height: none;
+	border-radius: 0;
+}
+
+.instagram-card-copy {
+	padding: 1.25rem;
+}
+
+.instagram-card-copy h4 {
+	line-height: 1.5;
+}
+
+.instagram-card-copy p:last-child {
+	margin-bottom: 0;
+}
+
+.twitter-section {
+	display: grid;
+	grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+	gap: 2.5rem;
+}
+
+@media screen and (max-width: 980px) {
+	.instagram-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.instagram-grid,
+	.twitter-section {
+		grid-template-columns: minmax(0, 1fr);
+	}
+}
