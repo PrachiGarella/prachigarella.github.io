@@ -303,6 +303,10 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Publish and confirm the expanded author list is live.
 
+### Publication result
+
+- Published in commit `e3f672c`. The live Research page returns HTTP 200 and matches the expanded author list. No remaining work for this change.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
