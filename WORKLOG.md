@@ -440,6 +440,23 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `3a0a713`; the live page and both new travel previews match the verified local files.
 
+## 2026-09-29 — Select non-physics Instagram posts from the last 14 days
+
+### Completed
+
+- Expanded the selection window to September 16–29, inclusive, at the user’s request.
+- Ranked eligible non-physics posts by the connector’s current lifetime `media_engagement` metric. The connector does not provide engagement gains within that date window.
+- Kept the September 25 coffee-date post and replaced the September 11 Colorado post with the September 17 mountain-and-lake carousel (original caption: “wtf is clubbing?”).
+- Retained four physics/science posts, the “Latest posts from” wording, newest-first order, and the working Twitter embeds.
+
+### Validation and observations
+
+- Verified the replacement caption, date, permalink, and preview through the connected Instagram account; visually inspected its mountain, lake, and waterfall collage.
+
+### Remaining work
+
+- Browser checks passed at 1440, 390, and 320 pixels: six previews loaded, links present, and no horizontal overflow. Whitespace checks passed. Publication verification pending.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
