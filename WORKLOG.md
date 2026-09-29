@@ -307,6 +307,24 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Published in commit `e3f672c`. The live Research page returns HTTP 200 and matches the expanded author list. No remaining work for this change.
 
+## 2026-09-29 — Feature public talks on the homepage
+
+### Completed
+
+- Renamed the homepage Outreach section to “Outreach & Public Talks.”
+- Added talk topics and examples from the existing Outreach page, including talks at Amity University and Christ University.
+- Retained a concise summary of APS and WiPS roles and updated the button to “Talks & Outreach.”
+
+### Validation and observations
+
+- Checked the section in Chrome at desktop (1440 × 900) and mobile (390 × 844) sizes; content fits without overflow and the button points to `Outreach.html`.
+- Browser checks used fallback fonts with Google Fonts blocked for reliability.
+- Passed diff whitespace checks. Unrelated local files are excluded from the commit.
+
+### Remaining work
+
+- Publish and confirm the updated homepage is live.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
