@@ -5,6 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/site.css?v=20260929-header" />
+  <script src="assets/js/site.js?v=20260929" defer></script>
 		<link rel="stylesheet" href="assets/css/social-media.css?v=20260929-three-posts" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -12,24 +14,28 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-			<header id="header">
-				<h1 id="logo"><a href="index.html">Prachi Garella</a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li>
-							<a href="#">Work</a>
-							<ul>
-								<li><a href="Research.html">Research</a></li>
-								<li><a href="Podcast.html">Podcast</a></li>
-								<li><a href="Social-Media.html">Social Media</a></li>
-								<li><a href="Outreach.html">Outreach</a></li>
-								<li><a href="Book Blog.html">Book Blog</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</header>
+			<header class="site-header">
+    <div class="site-header-shell site-header-inner">
+      <a class="site-brand" href="index.html" aria-label="Prachi Garella home">Prachi Garella<span aria-hidden="true">.</span></a>
+      <nav class="site-desktop-nav" aria-label="Main navigation">
+        <a href="Research.html">Research</a>
+        <a href="Outreach.html">Outreach</a>
+        <a href="Podcast.html">Podcast</a>
+        <a href="Book%20Blog.html">Books</a>
+        <a href="Social-Media.html" aria-current="page">Social Media</a>
+      </nav>
+      <details class="site-mobile-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="Research.html">Research</a>
+          <a href="Outreach.html">Outreach &amp; Public Talks</a>
+          <a href="Podcast.html">The Knowmads Podcast</a>
+          <a href="Book%20Blog.html">Book Blog</a>
+          <a href="Social-Media.html" aria-current="page">Social Media</a>
+        </nav>
+      </details>
+    </div>
+  </header>
 
 			<!-- Main -->
 			<div id="main" class="wrapper style1 social-page">
@@ -156,7 +162,7 @@
 					<li><a href="mailto:prachigarella@prachigarella.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; 2025 Prachi Garella</li>
+					<li>&copy; <span data-copyright-year>2026</span> Prachi Garella</li>
 				</ul>
 			</footer>
 
@@ -172,7 +178,7 @@
 		<script src="assets/js/browser.min.js"></script>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="assets/js/main.js?v=20260929-shared-header"></script>
 
 	</body>
 </html>

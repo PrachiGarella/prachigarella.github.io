@@ -34,6 +34,8 @@
 			speed: 2000
 		});
 
+	// Legacy menu setup applies only to pages with the original navigation.
+	if ($('#nav').length) {
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			alignment: 'right',
@@ -70,6 +72,8 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
+
+	}
 
 	// Parallax.
 	// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).

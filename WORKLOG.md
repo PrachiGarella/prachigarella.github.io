@@ -612,6 +612,27 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `db4dc65`; the live root page, stylesheet, and both optimized images exactly match the verified local files.
 
+## 2026-09-29 — Unify site headers and footer years
+
+### Completed
+
+- Changed the homepage portrait caption to “RMNP hardest hike ever.”
+- Applied the homepage navigation design to all seven HTML pages, including the template page, using shared styles in `assets/css/site.css`.
+- Standardized desktop links, brand styling, header dimensions, and the native mobile menu. Added current-page highlighting and Escape-key dismissal.
+- Removed duplicate homepage navigation styles and guarded legacy menu initialization in `assets/js/main.js` to prevent empty or overlapping mobile menus.
+- Set every footer to 2026 and added a shared `assets/js/site.js` update so the displayed year follows the current year automatically. Retained a 2026 fallback in HTML.
+
+### Validation and observations
+
+- Chrome checks passed on all seven pages at 1440, 390, and 320 pixels: identical header heights, no horizontal overflow, one navigation header, no old mobile-menu overlays, and no JavaScript errors.
+- Verified mobile menus open with Enter and close with Escape; all five destination links are present.
+- Verified every copyright year displays 2026 and that the shared script refreshes stale year text.
+- Inspected homepage/research screenshots and passed whitespace checks. External embeds were blocked during navigation-only browser checks; embed markup remains unchanged.
+
+### Remaining work
+
+- Publish and verify the updated pages and shared assets on the live site.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
