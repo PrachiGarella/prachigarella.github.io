@@ -355,6 +355,26 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `a4731ba`; the live homepage returns HTTP 200 and matches the version with the second paragraph removed.
 
+## 2026-09-29 — Simplify and rearrange the Research page
+
+### Completed
+
+- Removed the Background section from `Research.html` and moved the CV link into the current research introduction.
+- Replaced the long sidebar layout with a balanced introduction and portrait, a compact research interests section, individual publication entries, and an academic genealogy section below.
+- Added page-specific responsive styling in `assets/css/research.css`, descriptive image alternatives, and separate photo captions.
+- Retained all three papers, their author lists and links, MUSES, academic tree, research group, and the hidden Accessible Work content.
+
+### Validation and observations
+
+- Checked balanced HTML, preserved publication URLs and CV link, and confirmed Background and Accessible Work are absent from visible content.
+- Chrome checks passed at 1440, 390, and 320 pixels wide: no horizontal overflow, all images loaded and retained their original proportions, and all three papers remained present.
+- Reviewed desktop and mobile screenshots. Browser checks used fallback fonts with Google Fonts blocked for reliability.
+- Passed whitespace checks; unrelated local changes are excluded from publication.
+
+### Remaining work
+
+- Publish and verify the Research page and its new stylesheet.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.

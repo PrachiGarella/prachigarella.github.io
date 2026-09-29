@@ -1,0 +1,150 @@
+/* Research page layout, scoped to preserve the rest of the site. */
+.research-page .container {
+	max-width: 70rem;
+}
+
+.research-page .major {
+	margin-bottom: 3.5rem;
+}
+
+.research-intro,
+.research-genealogy {
+	display: grid;
+	grid-template-columns: minmax(0, 1.45fr) minmax(0, 0.85fr);
+	gap: 3.5rem;
+	align-items: center;
+}
+
+.research-page figure {
+	margin: 0;
+}
+
+.research-page figure img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 6px;
+}
+
+.research-portrait {
+	max-width: 24rem;
+	justify-self: end;
+}
+
+.research-page .research-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin: 1.75rem 0;
+}
+
+.research-page .research-actions li {
+	padding: 0;
+}
+
+.research-collaboration {
+	margin: 0;
+	font-size: 0.95em;
+}
+
+.research-collaboration a {
+	margin-left: 0.75em;
+}
+
+.research-topics {
+	margin: 3rem 0 4rem;
+	padding: 2rem 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.research-interests {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 0.65rem 2rem;
+	margin: 0;
+	padding-left: 1.2em;
+}
+
+.research-page #publications {
+	scroll-margin-top: 5rem;
+}
+
+.research-page .publication {
+	margin: 1.5rem 0;
+	padding: 1.75rem 2rem;
+	background: rgba(255, 255, 255, 0.025);
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-left: 3px solid #e44c65;
+	border-radius: 4px;
+}
+
+.research-page .publication h4 {
+	font-size: 1.15em;
+	line-height: 1.5;
+	margin-bottom: 0.65rem;
+}
+
+.research-page .publication p {
+	margin-bottom: 1rem;
+}
+
+.research-page .publication-meta {
+	font-size: 0.9em;
+}
+
+.research-page .publication .publication-links {
+	margin-bottom: 0;
+	line-height: 2;
+}
+
+.research-genealogy {
+	grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.45fr);
+	margin-top: 4rem;
+	padding-top: 3rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.research-page figcaption {
+	margin-top: 0.75rem;
+	font-size: 0.8em;
+	line-height: 1.6;
+}
+
+@media screen and (max-width: 980px) {
+	.research-intro,
+	.research-genealogy {
+		gap: 2rem;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.research-intro,
+	.research-genealogy {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.research-portrait {
+		justify-self: center;
+	}
+
+	.research-interests {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.research-page .publication {
+		padding: 1.25rem;
+	}
+
+	.research-genealogy > div {
+		grid-row: 1;
+	}
+
+	.research-page .research-actions {
+		margin-left: 0;
+	}
+
+	.research-page .research-actions li {
+		width: auto;
+	}
+}
