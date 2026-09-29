@@ -394,7 +394,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the social page, stylesheet, and previews. X’s external rate limit may continue to prevent timeline loading for some visitors.
+- Published in commit `4810098`; the live page, stylesheet, and all five preview images match the verified local files. X’s external rate limit may continue to prevent timeline loading for some visitors.
 
 ## Entry template
 
