@@ -325,6 +325,21 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `62c9c46`; the live homepage returns HTTP 200 and matches the updated local HTML.
 
+## 2026-09-29 — Focus homepage public talks on After5
+
+### Completed
+
+- Replaced the university talk examples in the homepage Outreach section with the user’s public talks at After5.
+- Opened with the user’s belief that scientists have a responsibility to communicate with the general public alongside conducting cutting-edge research.
+
+### Validation and observations
+
+- Reviewed the text change and passed whitespace checks; the revised paragraph is shorter than the previously checked layout.
+
+### Remaining work
+
+- Publish and verify the corrected homepage text.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
