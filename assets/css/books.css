@@ -1,0 +1,25 @@
+/* Featured books from Goodreads. */
+.book-page .container { max-width: 70rem; }
+.book-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+.book-card { display: flex; flex-direction: column; min-width: 0; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.15); border-radius: 6px; background: rgba(255,255,255,0.025); }
+.book-status { color: #e44c65; font-size: 0.8em; letter-spacing: 0.08em; text-transform: uppercase; min-height: 3em; margin-bottom: 1rem; }
+.book-cover { display: flex; justify-content: center; align-items: center; height: 260px; margin-bottom: 1.75rem; border: 0; }
+.book-cover img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.book-card h3 { font-size: 1.2em; line-height: 1.5; margin-bottom: 0.65rem; }
+.book-author { font-size: 0.95em; margin-bottom: 1.5rem; }
+.book-finished { font-size: 0.85em; }
+.book-rating { margin-top: auto; margin-bottom: 1rem; }
+.book-stars { display: block; color: #e44c65; font-size: 1.3em; letter-spacing: 0.12em; }
+.book-link { align-self: flex-start; }
+.books-updated { margin-top: 1.5rem; font-size: 0.85em; }
+@media screen and (max-width: 980px) {
+  .book-grid { gap: 1rem; }
+  .book-card { padding: 1rem; }
+  .book-cover { height: 220px; }
+}
+@media screen and (max-width: 736px) {
+  .book-grid { grid-template-columns: minmax(0, 1fr); }
+  .book-card { padding: 1.5rem; }
+  .book-status { min-height: 0; }
+  .book-cover { height: 260px; }
+}

@@ -570,6 +570,26 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `853bab4`; live HTML, stylesheet, and both JPEGs exactly match the verified local files.
 
+## 2026-09-29 — Update the book blog from live Goodreads shelves
+
+### Completed
+
+- Replaced outdated reading entries with two current reads from the live Goodreads profile and shelf: *Mahabharata Unravelled - II: The Dharma Discourses* by Ami Ganatra and *Six Not So Easy Pieces: Einstein’s Relativity, Symmetry, and Space-Time* by Richard P. Feynman.
+- Added the most recently completed book, *The Stranger* by Albert Camus, finished September 28, 2026, with Prachi’s personal rating of 4/5.
+- Used Goodreads `user_rating` rather than its community average; the two current reads have no personal rating and are labeled “Not rated yet.”
+- Added three local cover images, book/review links, an update date, and responsive card styling in `assets/css/books.css`.
+- Sources: live [profile](https://www.goodreads.com/user/show/69055493-prachi-garella), [currently-reading RSS](https://www.goodreads.com/review/list_rss/69055493?shelf=currently-reading&sort=date_updated&order=d), and [read RSS ordered by completion date](https://www.goodreads.com/review/list_rss/69055493?shelf=read&sort=date_read&order=d). The cached search result was stale; the live profile and feeds were used instead.
+
+### Validation and observations
+
+- Confirmed titles, authors, shelves, completion date, and personal rating from the live Goodreads responses.
+- Chrome checks passed at 1440, 768, 390, and 320 pixels: exactly two current reads and one completed book, all covers decode, correct rating, and no horizontal overflow.
+- HTML nesting and whitespace checks passed; visually inspected the desktop layout.
+
+### Remaining work
+
+- Publish and verify the book blog, stylesheet, and cover images on the live website.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
