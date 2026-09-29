@@ -353,7 +353,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the paragraph removal.
+- None. Published in commit `a4731ba`; the live homepage returns HTTP 200 and matches the version with the second paragraph removed.
 
 ## Entry template
 
