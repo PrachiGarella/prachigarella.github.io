@@ -528,6 +528,30 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `d689ff2`; verified the live page contains all four supplied September posts and matches the tested local HTML.
 
+## 2026-09-29 — Organize outreach around After5 Society talks
+
+### Completed
+
+- Rebuilt `Outreach.html` with an introductory statement, section navigation, featured After5 talks, community outreach, earlier talks, and a speaking contact section.
+- Added two verified After5 Society talks in newest-first order, with dates, venues, original topic summaries, and direct organizer event links:
+  - August 18, 2026: The Mystery of Time — entropy, the arrow of time, initial conditions, and time travel; Patterson Park Patio Bar, Houston.
+  - April 1, 2026: The Quantum Field Story — quantum fields, particles as excitations, matter, and forces; The Library, Houston.
+- Confirmed Prachi as the speaker from the organizer descriptions. The April page hides its ended-event description visually, but retains it in its public page data.
+- Sources: [Mystery of Time](https://www.eventbrite.com/e/after5houston-the-mystery-of-time-is-the-universe-stuck-moving-forward-tickets-1994069287919) and [Quantum Field Story](https://www.eventbrite.com/e/after5society-what-is-the-universe-made-of-the-quantum-field-story-tickets-1985539790964).
+- Added `assets/css/outreach.css` for responsive talk cards, community rows, and restrained image sizes. Simplified the existing outreach copy while retaining its organizations and earlier talks.
+- Converted the existing misnamed HEIC `images/Pos.png` into `images/pint-of-science.jpg` for browser compatibility. Preserved the source image.
+- Repaired malformed paragraph/list markup and a duplicate footer closing tag; added page language, descriptive title, image alt text, and semantic sections.
+
+### Validation and observations
+
+- HTML nesting and whitespace checks passed.
+- Chrome checks passed at 1440, 768, 390, and 320 pixels: both talk cards present, all three images decode, in-page navigation works, and no horizontal overflow.
+- Visually inspected desktop and mobile screenshots and the converted photo.
+
+### Remaining work
+
+- Publish and verify the outreach page, stylesheet, and converted photo on the live website.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.

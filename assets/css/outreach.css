@@ -1,0 +1,43 @@
+/* Outreach page layout. */
+.outreach-page .container { max-width: 70rem; }
+.outreach-page .major { margin-bottom: 2.5rem; }
+.outreach-intro { max-width: 52rem; margin: 0 auto 3.5rem; text-align: center; }
+.outreach-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem 2rem; }
+.outreach-section { margin-top: 3.5rem; scroll-margin-top: 5rem; }
+.section-heading { margin-bottom: 1.75rem; }
+.section-heading h3 { margin-bottom: 0.65rem; }
+.outreach-eyebrow { color: #e44c65; font-size: 0.8em; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.6rem; }
+.talk-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.talk-card { display: flex; flex-direction: column; padding: 2rem; border: 1px solid rgba(255,255,255,0.15); border-top: 3px solid #e44c65; border-radius: 6px; background: rgba(255,255,255,0.025); }
+.talk-card h4 { font-size: 1.35em; line-height: 1.45; margin-bottom: 0.85rem; }
+.talk-date { color: #fff; font-size: 0.85em; margin-bottom: 1rem; }
+.talk-venue { font-size: 0.85em; margin-bottom: 1.25rem; }
+.talk-topics { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; margin: auto 0 1.5rem; }
+.talk-topics li { padding: 0.25rem 0.7rem; border-radius: 3px; background: rgba(255,255,255,0.06); font-size: 0.8em; }
+.talk-link { align-self: flex-start; }
+.community-row { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.2fr); gap: 3rem; align-items: center; padding: 2.25rem 0; border-top: 1px solid rgba(255,255,255,0.12); }
+.community-row h4 { font-size: 1.35em; }
+.community-row p { margin-bottom: 1rem; }
+.community-row figure { margin: 0; }
+.community-row img { display: block; width: 100%; height: auto; border-radius: 6px; }
+.community-row figcaption { font-size: 0.8em; line-height: 1.5; margin-top: 0.75rem; }
+.community-logo { padding: 2rem 1rem; }
+.earlier-talks { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 2.5rem; }
+.earlier-talks ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 3rem; padding: 0; list-style: none; }
+.earlier-talks li { padding: 0; }
+.earlier-talks span { display: block; font-size: 0.9em; margin-top: 0.35rem; }
+.outreach-invite { margin-top: 3.5rem; padding: 2rem; border-left: 3px solid #e44c65; background: rgba(255,255,255,0.025); scroll-margin-top: 5rem; }
+.outreach-invite p:last-child { margin-bottom: 0; }
+.outreach-invite a { overflow-wrap: anywhere; }
+@media screen and (max-width: 980px) {
+  .talk-card { padding: 1.5rem; }
+  .community-row { gap: 2rem; }
+}
+@media screen and (max-width: 736px) {
+  .talk-grid, .community-row, .earlier-talks ul { grid-template-columns: minmax(0, 1fr); }
+  .community-row { gap: 1.5rem; }
+  .community-row figure { max-width: 32rem; }
+  .outreach-intro { text-align: left; }
+  .outreach-nav { justify-content: flex-start; }
+  .outreach-invite { padding: 1.5rem; }
+}
