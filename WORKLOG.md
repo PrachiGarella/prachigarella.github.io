@@ -438,7 +438,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Check the updated cards and publish the revised selection.
+- None. Published in commit `3a0a713`; the live page and both new travel previews match the verified local files.
 
 ## Entry template
 
