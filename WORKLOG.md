@@ -511,6 +511,23 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Published in commit `83d2d56`; live HTML and CSS match the tested files. Current-post freshness remains unverified because X’s full profile is inaccessible.
 
+## 2026-09-29 — Replace older tweets with four user-supplied September posts
+
+### Completed
+
+- Replaced the three May tweets on `Social-Media.html` with all four embed links supplied by the user, ordered September 29, 28, 25, and 16.
+- Kept the dark scrollable panel, direct profile link, and one shared X widget script.
+
+### Validation and observations
+
+- Verified all four embeds render with the expected text and author in Chrome at desktop (1440 × 1000) and mobile (320 × 800) sizes.
+- Confirmed keyboard scrolling, access to the fourth tweet, no horizontal overflow, and clean whitespace checks.
+- Selection comes directly from the user’s supplied embeds; no stale public mirror is used for this update.
+
+### Remaining work
+
+- Publish and verify the four-post page is live.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
