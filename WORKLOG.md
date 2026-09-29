@@ -161,6 +161,22 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Publish and verify the Research page link and PDF on the live website.
 
+## 2026-09-29 — New CV publication verified
+
+### Completed
+
+- Published the CV update in commit `a6ff7ff` on `main`.
+- Verified the live [Research page](https://prachigarella.com/Research.html) links to [the new resume](https://prachigarella.com/assets/resume.pdf).
+
+### Validation and observations
+
+- The live Research page and new PDF both return HTTP 200.
+- The published PDF matches the supplied `assets/resume.pdf` byte for byte.
+
+### Remaining work
+
+- None for this CV update.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
