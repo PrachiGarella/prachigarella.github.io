@@ -125,6 +125,24 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Push the publication commit and verify the updated public HTML and stylesheet.
 
+## 2026-09-29 — Publication verified
+
+### Completed
+
+- Published commit `7f6ee1e` to `origin/main`.
+- GitHub Pages [deployment run 36593284919](https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/36593284919) completed successfully.
+- The updated podcast page is live at [prachigarella.com/Podcast.html](https://prachigarella.com/Podcast.html).
+
+### Validation and observations
+
+- Public HTML and `assets/css/podcast.css` return HTTP 200 and match the approved local files (HTML compared with normalized line endings).
+- Verified the latest Scott Aaronson episode and all 14 embedded YouTube players are present in the deployed page.
+- Existing unrelated CV deletion and `.DS_Store` file remain uncommitted and were not published.
+
+### Remaining work
+
+- None for this publication.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
