@@ -771,7 +771,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the live page, stylesheet, and script.
+- None. Published in commit `94afca7`; verified that the live Book Blog, books.css, and books.js exactly match the tested local files.
 
 ## Entry template
 
