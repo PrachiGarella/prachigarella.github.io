@@ -753,6 +753,26 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. All four official X embeds rendered successfully in Chrome; linked text fallbacks remain available if third-party scripts are blocked. Published in commit `11838b9`; verified that all seven HTML pages, two changed stylesheets, the new book cover, robots.txt, and sitemap.xml exactly match the local files on the live site.
 
+## 2026-09-30 — Add book recommendations by email
+
+### Completed
+
+- Added “On my bookshelf” and “Recommend a book” tabs to the Book Blog, with keyboard navigation and a direct link to the recommendation panel.
+- Added a required book title and optional author, message, and name fields, styled to match the website.
+- Generate an email draft to prachigarella@prachigarella.com with subject “Book Recommendation by [name]” or “Book Recommendation” when no name is entered.
+- Explain that visitors review and send the draft in their email app, and that omitting a name does not hide their sending email address. No backend or automatic email sending is configured.
+- Added an email link fallback for visitors without JavaScript and a retry link after opening a draft.
+
+### Validation and observations
+
+- Chrome checks passed at 1440, 390, and 320 pixels for tabs, keyboard controls, direct links, required/whitespace-only title validation, named and unnamed subjects, special-character encoding, and no horizontal overflow.
+- Verified the no-JavaScript email fallback and reviewed the mobile layout. No email was sent during testing.
+- Existing reading cards remain intact. Unrelated local changes were left untouched.
+
+### Remaining work
+
+- Publish and verify the live page, stylesheet, and script.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.

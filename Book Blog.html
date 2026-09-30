@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="assets/css/site.css?v=20260930-accessibility" />
   <script src="assets/js/site.js?v=20260929" defer></script>
-    <link rel="stylesheet" href="assets/css/books.css?v=20260929-goodreads" />
+    <link rel="stylesheet" href="assets/css/books.css?v=20260930-recommendations" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <link rel="stylesheet" href="assets/css/theme.css?v=20260929-cohesive" />
   <meta name="description" content="What Prachi Garella is currently reading, her latest completed book, and personal Goodreads ratings." />
@@ -59,6 +59,11 @@
             <p>Books take you to places nothing else can!</p>
           </header>
 
+          <nav class="book-tabs" aria-label="Book Blog sections">
+            <a id="reading-tab" href="#content">On my bookshelf</a>
+            <a id="recommend-tab" href="#recommend-book">Recommend a book</a>
+          </nav>
+
           <!-- Content -->
           <section id="content">
             <p>
@@ -102,6 +107,33 @@
             </div>
             <p class="books-updated">Updated from <a href="https://www.goodreads.com/user/show/69055493-prachi-garella" target="_blank" rel="noopener noreferrer">my Goodreads shelves</a> on <time datetime="2026-09-30">September 30, 2026</time>.</p>
           </section>
+          <section id="recommend-book" class="book-recommendation" aria-labelledby="recommend-heading">
+            <h2 id="recommend-heading">What should I read next?</h2>
+            <p>Found a book you think I’d love? I’d love to hear about it.</p>
+            <form id="book-recommendation-form" hidden>
+              <div class="recommendation-fields">
+                <div>
+                  <label for="recommend-title">Book title <span>(required)</span></label>
+                  <input type="text" id="recommend-title" name="book" required maxlength="160" />
+                </div>
+                <div>
+                  <label for="recommend-author">Author <span>(optional)</span></label>
+                  <input type="text" id="recommend-author" name="author" maxlength="120" />
+                </div>
+              </div>
+              <label for="recommend-message">Why do you recommend it? <span>(optional)</span></label>
+              <textarea id="recommend-message" name="message" rows="4" maxlength="1000"></textarea>
+              <label for="recommend-name">Your name <span>(optional)</span></label>
+              <input type="text" id="recommend-name" name="name" autocomplete="name" maxlength="80" aria-describedby="recommend-name-help" />
+              <p id="recommend-name-help" class="recommendation-help">Leave your name blank if you prefer. Your sending email address will still be visible.</p>
+              <p class="recommendation-subject">Email subject: <span id="recommend-subject">Book Recommendation</span></p>
+              <button type="submit" class="button primary">Open email draft <span class="icon solid fa-envelope" aria-hidden="true"></span></button>
+              <p class="recommendation-help">Opens your email app with a draft to <a href="mailto:prachigarella@prachigarella.com">prachigarella@prachigarella.com</a>. Review it and press Send there.</p>
+              <p id="recommend-status" role="status"></p>
+              <a id="recommend-draft" hidden>Open the email draft again</a>
+            </form>
+            <noscript><p>Email your recommendation to <a href="mailto:prachigarella@prachigarella.com?subject=Book%20Recommendation">prachigarella@prachigarella.com</a> with the subject “Book Recommendation” or “Book Recommendation by Your Name”. Your sending email address will be visible.</p></noscript>
+          </section>
         </div>
       </div>
 
@@ -125,6 +157,7 @@
     </div>
 
     <!-- Scripts -->
+    <script src="assets/js/books.js?v=20260930-recommendations" defer></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/jquery.dropotron.min.js"></script>

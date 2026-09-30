@@ -23,3 +23,26 @@
   .book-status { min-height: 0; }
   .book-cover { height: 260px; }
 }
+
+/* Reading and recommendation tabs, with a no-script anchor fallback. */
+.book-page [hidden] { display: none !important; }
+.book-tabs { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 2.5rem; }
+.book-page .book-tabs a { padding: 0.65rem 1.25rem; border: 1px solid var(--line); border-radius: 999px; font-size: 0.9em; }
+.book-page .book-tabs a[aria-selected="true"] { background: var(--accent); color: #1c1d26 !important; border-color: var(--accent); }
+.book-recommendation { max-width: 48rem; padding: 2rem; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.book-recommendation h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 2rem; letter-spacing: -0.025em; }
+.book-recommendation form { margin-bottom: 0; }
+.recommendation-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+.book-recommendation label { font-size: 0.9em; margin-bottom: 0.5rem; }
+.book-recommendation label span, .recommendation-help { color: var(--muted); }
+.book-recommendation input, .book-recommendation textarea { margin-bottom: 1.25rem; font: inherit; }
+.book-recommendation input:focus, .book-recommendation textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.recommendation-help { font-size: 0.8em; margin-top: 0.75rem; overflow-wrap: anywhere; }
+.recommendation-subject { font-size: 0.85em; overflow-wrap: anywhere; }
+#recommend-subject { color: var(--ink); }
+#recommend-status:empty { display: none; }
+#recommend-status, #recommend-draft { font-size: 0.85em; }
+@media (max-width: 736px) {
+  .book-recommendation { padding: 1.25rem; }
+  .recommendation-fields { grid-template-columns: minmax(0, 1fr); gap: 0; }
+}
