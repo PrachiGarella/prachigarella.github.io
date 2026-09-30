@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="assets/css/site.css?v=20260930-accessibility" />
   <script src="assets/js/site.js?v=20260929" defer></script>
-    <link rel="stylesheet" href="assets/css/books.css?v=20260930-recommendations" />
+    <link rel="stylesheet" href="assets/css/books.css?v=20260930-direct-send" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <link rel="stylesheet" href="assets/css/theme.css?v=20260929-cohesive" />
   <meta name="description" content="What Prachi Garella is currently reading, her latest completed book, and personal Goodreads ratings." />
@@ -110,7 +110,9 @@
           <section id="recommend-book" class="book-recommendation" aria-labelledby="recommend-heading">
             <h2 id="recommend-heading">What should I read next?</h2>
             <p>Found a book you think I’d love? I’d love to hear about it.</p>
-            <form id="book-recommendation-form" hidden>
+            <form id="book-recommendation-form" data-endpoint="https://formspree.io/f/xwlpzaod" hidden>
+              <input type="hidden" name="subject" value="Book Recommendation" />
+              <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" hidden aria-hidden="true" />
               <div class="recommendation-fields">
                 <div>
                   <label for="recommend-title">Book title <span>(required)</span></label>
@@ -125,14 +127,12 @@
               <textarea id="recommend-message" name="message" rows="4" maxlength="1000"></textarea>
               <label for="recommend-name">Your name <span>(optional)</span></label>
               <input type="text" id="recommend-name" name="name" autocomplete="name" maxlength="80" aria-describedby="recommend-name-help" />
-              <p id="recommend-name-help" class="recommendation-help">Leave your name blank if you prefer. Your sending email address will still be visible.</p>
-              <p class="recommendation-subject">Email subject: <span id="recommend-subject">Book Recommendation</span></p>
-              <button type="submit" class="button primary">Open email draft <span class="icon solid fa-envelope" aria-hidden="true"></span></button>
-              <p class="recommendation-help">Opens your email app with a draft to <a href="mailto:prachigarella@prachigarella.com">prachigarella@prachigarella.com</a>. Review it and press Send there.</p>
+              <p id="recommend-name-help" class="recommendation-help">Leave your name blank to send without a name. No email address is needed.</p>
+                            <button type="submit" class="button primary">Send recommendation <span class="icon solid fa-envelope" aria-hidden="true"></span></button>
+              <p class="recommendation-help">Your recommendation goes straight to my inbox.</p>
               <p id="recommend-status" role="status"></p>
-              <a id="recommend-draft" hidden>Open the email draft again</a>
             </form>
-            <noscript><p>Email your recommendation to <a href="mailto:prachigarella@prachigarella.com?subject=Book%20Recommendation">prachigarella@prachigarella.com</a> with the subject “Book Recommendation” or “Book Recommendation by Your Name”. Your sending email address will be visible.</p></noscript>
+            <noscript><p>Please enable JavaScript to send a recommendation directly from this page.</p></noscript>
           </section>
         </div>
       </div>
@@ -157,7 +157,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/books.js?v=20260930-recommendations" defer></script>
+    <script src="assets/js/books.js?v=20260930-direct-send" defer></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/jquery.dropotron.min.js"></script>

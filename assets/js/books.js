@@ -44,34 +44,71 @@
   var title = document.getElementById('recommend-title');
   var author = document.getElementById('recommend-author');
   var message = document.getElementById('recommend-message');
-  var subject = document.getElementById('recommend-subject');
-  var draft = document.getElementById('recommend-draft');
   var status = document.getElementById('recommend-status');
-  function oneLine(value) { return value.replace(/\s+/g, ' ').trim(); }
-  function updateDraft() {
-    var sender = oneLine(name.value);
-    subject.textContent = 'Book Recommendation' + (sender ? ' by ' + sender : '');
-    var body = 'Book: ' + oneLine(title.value);
-    if (oneLine(author.value)) body += '\r\nAuthor: ' + oneLine(author.value);
-    if (message.value.trim()) body += '\r\n\r\nWhy I recommend it:\r\n' + message.value.trim();
-    if (sender) body += '\r\n\r\nRecommended by: ' + sender;
-    draft.href = 'mailto:prachigarella@prachigarella.com?subject=' + encodeURIComponent(subject.textContent) + '&body=' + encodeURIComponent(body);
-  }
+  var button = form.querySelector('button[type="submit"]');
+  var sending = false;
+  // Set the public form endpoint after creating the inbox in Formspree.
+  var endpoint = form.dataset.endpoint;
+  var configured = /^https:\/\/formspree\.io\/f\/[a-zA-Z0-9]+$/.test(endpoint);
   form.hidden = false;
+  button.disabled = !configured;
+  if (!configured) status.textContent = 'Recommendations are temporarily unavailable. Please check back soon.';
+  function oneLine(value) { return value.replace(/\s+/g, ' ').trim(); }
+  function updateSubject() {
+    var sender = oneLine(name.value);
+    form.elements.subject.value = 'Book Recommendation' + (sender ? ' by ' + sender : '');
+  }
   form.addEventListener('input', function () {
     title.setCustomValidity('');
-    updateDraft();
-    draft.hidden = true;
-    status.textContent = '';
+    updateSubject();
+    if (!sending && configured) status.textContent = '';
   });
-  form.addEventListener('submit', function (event) {
+  form.addEventListener('submit', async function (event) {
     event.preventDefault();
+    if (sending || !configured) return;
     title.setCustomValidity(oneLine(title.value) ? '' : 'Please enter a book title.');
-    if (!form.reportValidity()) return;
-    updateDraft();
-    draft.hidden = false;
-    status.textContent = 'Your email app should open with a draft. If it does not, use the email address above.';
-    draft.click();
+    if (!form.reportValidity() || form.elements._gotcha.value) return;
+    updateSubject();
+    var payload = {
+      book: oneLine(title.value),
+      author: oneLine(author.value),
+      message: message.value.trim(),
+      name: oneLine(name.value),
+      subject: form.elements.subject.value,
+      _gotcha: ''
+    };
+    sending = true;
+    button.disabled = true;
+    form.setAttribute('aria-busy', 'true');
+    var inputs = Array.from(form.querySelectorAll('input:not([type="hidden"]), textarea'));
+    inputs.forEach(function (input) { input.readOnly = true; });
+    status.textContent = 'Sending your recommendation…';
+    var controller = new AbortController();
+    var timeout = setTimeout(function () { controller.abort(); }, 20000);
+    try {
+      var response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload),
+        signal: controller.signal
+      });
+      var result = await response.json();
+      if (response.ok && result.ok === true) {
+        form.reset();
+        updateSubject();
+        status.textContent = 'Thank you! Your recommendation has been submitted.';
+      } else {
+        status.textContent = 'Your recommendation could not be submitted. Please try again; your text is still here.';
+      }
+    } catch (error) {
+      status.textContent = 'We could not confirm your submission. Your text is still here; please try again shortly.';
+    } finally {
+      clearTimeout(timeout);
+      sending = false;
+      button.disabled = false;
+      form.removeAttribute('aria-busy');
+      inputs.forEach(function (input) { input.readOnly = false; });
+    }
   });
-  updateDraft();
+  updateSubject();
 }());

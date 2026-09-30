@@ -38,10 +38,8 @@
 .book-recommendation input, .book-recommendation textarea { margin-bottom: 1.25rem; font: inherit; }
 .book-recommendation input:focus, .book-recommendation textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
 .recommendation-help { font-size: 0.8em; margin-top: 0.75rem; overflow-wrap: anywhere; }
-.recommendation-subject { font-size: 0.85em; overflow-wrap: anywhere; }
-#recommend-subject { color: var(--ink); }
 #recommend-status:empty { display: none; }
-#recommend-status, #recommend-draft { font-size: 0.85em; }
+#recommend-status { font-size: 0.85em; }
 @media (max-width: 736px) {
   .book-recommendation { padding: 1.25rem; }
   .recommendation-fields { grid-template-columns: minmax(0, 1fr); gap: 0; }

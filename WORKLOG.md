@@ -773,6 +773,44 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `94afca7`; verified that the live Book Blog, books.css, and books.js exactly match the tested local files.
 
+## 2026-09-30 — Prepare direct website submissions for book recommendations
+
+### Completed locally (not published)
+
+- Replaced the email-draft workflow with a “Send recommendation” form that posts directly to a form backend and shows an inline result. Visitors do not need an email app or an email-address field.
+- Preserved optional names and the subjects “Book Recommendation by [name]” / “Book Recommendation”.
+- Added pending-state controls, duplicate-submit prevention, a spam honeypot, a request timeout, and error handling that retains the visitor’s text. A success message appears only after a positive backend response.
+- Prepared a Formspree integration. Its public endpoint belongs in the empty data-endpoint attribute on #book-recommendation-form in Book Blog.html; submission remains disabled until a valid endpoint is configured.
+
+### Validation and observations
+
+- FormSubmit was tried first using one labeled setup request through AJAX and one through its standard endpoint; both returned server errors. No activation or successful delivery could be confirmed, so that integration was removed.
+- Consulted Formspree’s official documentation for AJAX submission, the subject field, and the _gotcha honeypot.
+- Chrome tests passed at 1440, 390, and 320 pixels for missing configuration, required/blank title validation, named and unnamed request payloads, success, server/network errors, retries, duplicate prevention, and layout. These used mocked responses and do not prove live email delivery.
+- Whitespace checks passed. Changes remain local so an unconfigured form does not replace the live email-draft version.
+
+### Remaining work
+
+- Endpoint subsequently provided by the user; see the following entry for connection and deployment.
+
+## 2026-09-30 — Connect direct book recommendations to Formspree
+
+### Completed
+
+- Connected the user-provided endpoint https://formspree.io/f/xwlpzaod to the recommendation form.
+- Visitors submit directly from the website without an email app or an email-address field. The optional name controls the email subject as requested.
+- Retained the tested validation, loading controls, spam honeypot, timeout, and retry/error handling from the preceding entry.
+
+### Validation and observations
+
+- Submitted one clearly labeled “Website form test — please ignore” through Chrome using the actual form and endpoint, with subject “Book Recommendation by Website setup”.
+- Formspree returned HTTP 200 with ok:true, and the website displayed the confirmation message and cleared the form. This verifies backend acceptance; inbox receipt is not independently observable from this environment.
+- Prior simulated tests covered desktop and mobile layouts, named/unnamed subjects, missing configuration, required titles, service failures, and duplicate submissions. No additional real test emails were sent.
+
+### Remaining work
+
+- Publish and verify the deployed page, script, and styles.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
