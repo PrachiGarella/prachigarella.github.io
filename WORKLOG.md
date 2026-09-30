@@ -751,7 +751,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- All four official X embeds rendered successfully in Chrome; linked text fallbacks remain available if third-party scripts are blocked. Publish and verify the deployed files.
+- None. All four official X embeds rendered successfully in Chrome; linked text fallbacks remain available if third-party scripts are blocked. Published in commit `11838b9`; verified that all seven HTML pages, two changed stylesheets, the new book cover, robots.txt, and sitemap.xml exactly match the local files on the live site.
 
 ## Entry template
 
