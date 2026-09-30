@@ -809,7 +809,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the deployed page, script, and styles.
+- None. Published in commit `de0f8ca`; verified the live Book Blog, books.js, and books.css exactly match the tested local files.
 
 ## Entry template
 
