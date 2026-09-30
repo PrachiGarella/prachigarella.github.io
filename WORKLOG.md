@@ -725,6 +725,34 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Revisit these options when the user resumes the project and choose which additions to develop.
 
+## 2026-09-30 — Audit and refresh current website content
+
+### Completed
+
+- Refreshed the two currently-reading cards from the live Goodreads feed: **AI Ethics** by Mark Coeckelbergh and **Mahabharata Unravelled II** by Ami Ganatra. Both remain unrated. Downloaded the verified AI Ethics cover locally.
+- Retained **The Stranger** as the latest completed book, finished September 28 with a personal rating of 4/5. Updated the Goodreads check date to September 30.
+- X’s public profile is accessible in this session. Replaced the older teaser and Feedspot posts with the September 30 podcast reflection and audio-download milestone. Retained the September 29 Scott Aaronson blog reaction and September 28 episode announcement, using official X oEmbed HTML for all four posts.
+- Asked whether to feature all topics or science/podcasting; with no reply, proceeded with the stated science/podcasting selection. The section now describes its focus explicitly and retains its scrollable panel.
+- Added page-specific search descriptions, canonical URLs, Open Graph sharing metadata, and social preview images to the six public pages. Standardized the Research and Podcast browser titles.
+- Added a six-page sitemap and robots.txt; marked the unused template demonstration page noindex.
+- Enabled mobile zoom, added keyboard skip links across the public pages, and added main landmarks to Books and Social Media. Updated university links to verified HTTPS destinations.
+
+### Validation and observations
+
+- [Goodreads currently-reading feed](https://www.goodreads.com/review/list_rss/69055493?shelf=currently-reading&sort=date_updated&order=d) and [completed-book feed](https://www.goodreads.com/review/list_rss/69055493?shelf=read&sort=date_read&order=d) supplied titles, authors, personal ratings, and completion dates; no community ratings were substituted.
+- Checked the official podcast feed: Scott Aaronson remains Season 3, Episode 1 and the newest release. All fourteen displayed episode players and listening destinations remain unchanged.
+- [INSPIRE author search](https://inspirehep.net/literature?q=a%20Garella%2C%20Prachi) still returns the same three papers with matching publication information. No new After5 talk was found in the public organizer/event search.
+- Used the Windsor.ai Instagram skill to check media through September 30. No newer post was returned after September 25. Preserved four distinct science posts and the two eligible non-science posts in the September 17–30 window; ranked by current lifetime media_engagement, not engagement gained during the window. The duplicate September 21 physics reel remains excluded.
+- The four featured X posts are [podcast reflection](https://x.com/garellaprachi/status/2105366647678861451), [audio milestone](https://x.com/garellaprachi/status/2105364105750331412), [blog reaction](https://x.com/garellaprachi/status/2105026832429109250), and [Scott announcement](https://x.com/garellaprachi/status/2104602475156365355). Verified their author and official embed responses.
+- Chrome layout checks passed for all six pages at 1440, 768, 390, and 320 pixels, with loaded images, working mobile menus, no JavaScript errors, and no horizontal overflow. Checked book layout visually.
+- Verified keyboard skip links move focus to the main content; all public-page local assets and internal anchors resolve; metadata and sitemap URLs agree. Current CV links resolve to assets/resume.pdf.
+- The unused elements.html template still references missing demo images; it is not linked from the public navigation and is now marked noindex. Unrelated local file changes were left untouched.
+- Previously recorded expansion ideas remain available for a later session; this update focuses on current content and maintenance.
+
+### Remaining work
+
+- All four official X embeds rendered successfully in Chrome; linked text fallbacks remain available if third-party scripts are blocked. Publish and verify the deployed files.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.

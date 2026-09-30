@@ -36,3 +36,7 @@
 @media (max-width: 736px) {
   .site-header { font-size: 16px; }
 }
+
+/* Keep keyboard access to the content consistent across public pages. */
+.site-skip { position: fixed; top: -100px; left: 1rem; z-index: 200; padding: 0.6rem 1rem; background: #fff; color: #1c1d26 !important; border: 0; }
+.site-skip:focus { top: 1rem; }
