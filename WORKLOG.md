@@ -811,6 +811,26 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `de0f8ca`; verified the live Book Blog, books.js, and books.css exactly match the tested local files.
 
+## 2026-10-01 — Refresh reading list and audit current website content
+
+### Completed
+
+- Book Blog now features four books: currently reading AI Ethics and Down and Out in Paris and London; recently read The Stranger (4/5, finished September 28) and The Woman Destroyed (5/5, finished September 1).
+- Titles, authors, dates, review links, and covers verified against public Goodreads RSS. The Woman Destroyed has no rating in the feed; the user explicitly supplied 5/5 for the website. Preserve this user-supplied rating during future refreshes unless instructed otherwise.
+- Added two cover images and changed the desktop book grid to two columns, retaining one column on mobile. Updated page descriptions, stylesheet cache version, reading-list date, and sitemap last-modified date.
+- Checked podcast RSS (latest remains Scott Aaronson, Season 3 Episode 1), INSPIRE (same three papers), public X profile (no newer posts), After5 listings/search (no new talk found), and connected Instagram data through October 1.
+- Instagram has only one non-science post within September 18–October 1: the September 25 coffee carousel, with 561 current lifetime interactions. Retained the existing September 17 travel post as the second non-science feature rather than reducing the six-post selection. No newer science post found. These counts are lifetime engagement, not gains during the date window.
+
+### Validation and observations
+
+- All six pages passed Chrome checks at 1440, 768, 390, and 320 pixels: images load, mobile menus work, footer years agree, and no horizontal overflow occurs. Existing fourteen podcast embeds and six Instagram/four X cards remain intact.
+- Verified four book titles, two reading/two completed statuses, 4/5 and 5/5 ratings, and the recommendation tab and subject handling. No recommendation email sent during this update.
+- Checked local links/assets across all six pages, visually reviewed the book layout, and passed whitespace checks. Unrelated local changes preserved.
+
+### Remaining work
+
+- Publish and verify live files.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.

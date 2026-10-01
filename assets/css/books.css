@@ -1,6 +1,6 @@
 /* Featured books from Goodreads. */
 .book-page .container { max-width: 70rem; }
-.book-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+.book-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
 .book-card { display: flex; flex-direction: column; min-width: 0; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.15); border-radius: 6px; background: rgba(255,255,255,0.025); }
 .book-status { color: #e44c65; font-size: 0.8em; letter-spacing: 0.08em; text-transform: uppercase; min-height: 3em; margin-bottom: 1rem; }
 .book-cover { display: flex; justify-content: center; align-items: center; height: 260px; margin-bottom: 1.75rem; border: 0; }
