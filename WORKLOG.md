@@ -829,7 +829,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify live files.
+- None. Published in commit `fa0b548`; live HTML, stylesheet, both new covers, and sitemap verified byte-for-byte against local files.
 
 ## Entry template
 
