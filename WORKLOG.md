@@ -831,6 +831,23 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `fa0b548`; live HTML, stylesheet, both new covers, and sitemap verified byte-for-byte against local files.
 
+## 2026-10-06 — Project checkpoint
+
+### Completed
+
+- Reviewed the worklog and Git history; the October 1 website refresh and deployment verification are fully recorded in commits `fa0b548` and `320bbce`.
+- Confirmed the current reading-list preference: four books, with two currently reading and two recently read. AI Ethics and Down and Out in Paris and London are the selected current reads; The Stranger is rated 4/5 and The Woman Destroyed is rated 5/5, as explicitly supplied by the user.
+- Retained the existing future-improvement backlog for a later session.
+
+### Validation and observations
+
+- This session updates documentation only. The last content-source audit and live deployment verification were on October 1; no new content refresh or live-site check was performed today.
+- Existing local metadata changes, the deleted older CV file, and untracked HEIC photos remain untouched. No website implementation changes are pending in the tracked working tree.
+
+### Remaining work
+
+- None for this worklog update. Future content refreshes should recheck sources and preserve the user-supplied 5/5 rating unless the user changes it.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
