@@ -848,6 +848,34 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None for this worklog update. Future content refreshes should recheck sources and preserve the user-supplied 5/5 rating unless the user changes it.
 
+## 2026-10-08 — Refresh social content and review the website
+
+### Completed
+
+- Refreshed Social-Media.html with the October 7 AI mathematics/physics carousel and October 6 After5 reel, using verified Instagram captions, UTC publication dates, direct links, and two locally downloaded previews.
+- Retained six cards in descending date order: four science/outreach posts and two personal/travel posts. No newer personal post was returned; retained September 25 coffee and September 17 travel as the established fallback selection.
+- Added intrinsic dimensions to all six Instagram preview images to reserve space during loading.
+- Updated the four X features with October 7 mathematics thread and October 5 postdoc-search announcement, retaining the two September 30 podcast posts. Used official oEmbed responses and verified the author. Standardized the profile button to X / Twitter.
+- Linked the newly shared After5 reel from Outreach.html without treating its posting date as a new event date.
+- Removed a duplicate tabindex attribute from the homepage main landmark.
+- Rechecked the selected four-book reading list and changed its checked date to October 8. Preserved AI Ethics, Down and Out in Paris and London, The Stranger (4/5), and The Woman Destroyed (5/5); Goodreads now also returns the previously user-supplied 5/5 rating.
+- Updated sitemap modification dates for the four changed public pages.
+
+### Validation and observations
+
+- [Goodreads currently-reading RSS](https://www.goodreads.com/review/list_rss/69055493?shelf=currently-reading&sort=date_updated&order=d) and [read RSS](https://www.goodreads.com/review/list_rss/69055493?shelf=read&sort=date_read&order=d) confirm the selected books and completion dates. No newer completed book was returned.
+- [Official podcast RSS](https://rss.buzzsprout.com/2192541.rss) and Apple lookup confirm Scott Aaronson remains the newest release, Season 3 Episode 1. All fourteen existing players and platform links remain current.
+- [INSPIRE author records](https://inspirehep.net/literature?q=a%20Garella%2C%20Prachi) return the same three papers and publication information. No newer talk listing was found in public searches; the new reel is featured as a clip from After5 talks.
+- Used the Windsor.ai Instagram skill and connected prachigarella account to review August 1–October 8 media. Forced hourly refresh is unavailable on the trial plan; a normal connector read succeeded and returned both new October posts.
+- Read the public X profile and verified new [mathematics thread](https://x.com/garellaprachi/status/2107959306347831673) and [postdoc-search post](https://x.com/garellaprachi/status/2107228279073644927) against official embeds. The unrelated October 6 personal post was not selected for the science/research section.
+- All six public pages passed source checks for balanced tags, unique IDs/attributes, ARIA targets, internal links/anchors, readable images, correct intrinsic image dimensions, and alternative text. Verified social card counts/date order, podcast count, book selections/ratings, unchanged Formspree endpoint, and valid six-page sitemap. Diff whitespace checks passed with existing CRLF line endings recognized.
+- Visually inspected both new image assets. Browser preview services were unavailable for both in-app browser and Chrome, so rendered desktop/mobile layouts and third-party widget execution were not retested. No form submission or email was sent.
+- Fetched origin and confirmed local main equals origin/main before publication. Existing CV deletion, .DS_Store changes, and untracked HEIC photos are excluded from this update.
+
+### Remaining work
+
+- Publish the verified changes and compare the live files against the local versions.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
