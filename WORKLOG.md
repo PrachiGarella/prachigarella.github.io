@@ -874,7 +874,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish the verified changes and compare the live files against the local versions.
+- None. Published website commit `62d97f7`; [GitHub Pages deployment 37842197214](https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/37842197214) completed successfully. All six live public pages, sitemap, and both new image assets return HTTP 200 and match the local files byte for byte. Rendered browser checks remain unavailable as noted above.
 
 ## Entry template
 
