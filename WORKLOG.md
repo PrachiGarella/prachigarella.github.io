@@ -876,6 +876,44 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published website commit `62d97f7`; [GitHub Pages deployment 37842197214](https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/37842197214) completed successfully. All six live public pages, sitemap, and both new image assets return HTTP 200 and match the local files byte for byte. Rendered browser checks remain unavailable as noted above.
 
+## 2026-10-08 — Worklog checkpoint
+
+### Completed
+
+- Confirmed the October 8 website refresh, source checks, and successful live deployment are recorded in the preceding entry.
+- Recorded the publication commits: `62d97f7` contains the website refresh; `997734b` records the completed live verification. Both were pushed to origin/main.
+- Preserved the four-book selection, The Woman Destroyed’s user-supplied 5/5 rating, six Instagram cards with four science/two personal posts, and the future-improvement backlog.
+
+### Validation and observations
+
+- Reviewed the latest worklog entry and Git status. This checkpoint changes documentation only; it does not repeat the content audit or deployment checks.
+- The website refresh is live and verified. Browser layout and widget checks were unavailable during the refresh and remain unverified for this session.
+- Existing CV deletion, .DS_Store changes, and untracked HEIC photos remain untouched.
+
+### Remaining work
+
+- No website changes remain pending. This checkpoint is saved locally in WORKLOG.md.
+
+## 2026-10-15 — Add new preprint and refresh the CV
+
+### Completed
+
+- Added arXiv:2610.18830 as the newest entry in Research.html, with author order, October 13 submission date, a short summary, and abstract/PDF links verified against the official arXiv record.
+- Replaced assets/resume.pdf with the October 14 master academic CV from Postdoc Applications/Perpmanent_Docs/resume.pdf. The source worklog identifies this as the latest shared CV, including the new preprint and June 2027 expected PhD completion.
+- Versioned all three CV links on the homepage and Research page to avoid stale browser caches, and updated their sitemap dates.
+- Preserved the existing October 8 worklog checkpoint and unrelated local changes.
+
+### Validation and observations
+
+- The website PDF matches the master byte for byte (SHA256 a6fce7e665fbc596664e589e4b9dd1c0959900ea66c137edf343e046b5d8947e).
+- All six public pages pass source checks for balanced HTML, unique attributes/IDs, ARIA targets, and local assets/anchors. Confirmed four publication entries, all three versioned CV links, and the six-page sitemap. Diff whitespace checks pass with CRLF recognized.
+- Rendered and visually inspected both CV pages with macOS PDFKit; the publication entry, pagination, and layout are intact. The PDF itself was copied without editing.
+- No browser provider is available in this session, so rendered website layout checks are unavailable.
+
+### Remaining work
+
+- Publish the changes and verify the live files.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
