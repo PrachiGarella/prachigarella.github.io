@@ -914,6 +914,30 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `0d9403d`. The live homepage, Research page, versioned CV download, and sitemap all return successfully and match the local files byte for byte. GitHub Pages run: https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/38797978055. Rendered website checks remain unavailable as noted above.
 
+## 2026-10-15 — Complete the wider content refresh
+
+### Completed
+
+- Reviewed the established refresh workflow and preferences after the user clarified that the website update should include the other content sections.
+- Added the October 14 new-paper announcement to the top of the four featured X posts in Social-Media.html, using X's official oEmbed markup and confirming the author and post URL. Retained the October 7 mathematics thread, October 5 postdoc announcement, and September 30 podcast reflection; removed the oldest displayed audio-download milestone.
+- Rechecked the four selected books and their personal ratings against Goodreads, retained all selections, and updated the visible check date to October 15.
+- Updated sitemap modification dates for Books and Social Media. The new preprint and latest CV from the preceding update remain intact.
+
+### Validation and observations
+
+- Read the [official podcast RSS](https://rss.buzzsprout.com/2192541.rss). Scott Aaronson remains the newest release, Season 3 Episode 1, September 28 UTC; no additional episode was needed.
+- Read both [currently-reading](https://www.goodreads.com/review/list_rss/69055493?shelf=currently-reading&sort=date_updated&order=d) and [completed-book](https://www.goodreads.com/review/list_rss/69055493?shelf=read&sort=date_read&order=d) feeds. AI Ethics and Down and Out in Paris and London remain current reads. The Stranger (4/5, September 28) and The Woman Destroyed (5/5, September 1) remain the two latest completed books. Preserved the user's four-book selection and 5/5 preference.
+- Used the Windsor.ai Instagram skill, rediscovered account/fields/options, and queried August 1–October 15. The normal read returned 22 posts, fetched October 15 at 20:00:53 UTC, with no post newer than October 7. Retained the six established cards, four science/two personal, including the September 25 and September 17 fallback personal posts. No forced refresh was requested.
+- Read the live [X profile](https://x.com/garellaprachi) and verified the [October 14 announcement](https://x.com/garellaprachi/status/2110445325320130962) using official oEmbed. Kept the established science/research/podcasting focus.
+- INSPIRE returns the same four papers now on the Research page; journal/preprint statuses agree. Public searches found no newer After5 talk listing; retained the existing two talks and reel.
+- The future-improvement backlog remains a set of suggestions, not an approved redesign plan. No speculative new research, milestone, or personal-reflection copy was added.
+- All six public pages pass HTML structure, duplicate attribute/ID, ARIA target, image alternative-text, local asset, and internal-anchor checks. Confirmed six Instagram cards, four X posts, official new embed markup/order, four book selections/ratings, fourteen podcast players, four publications, unchanged current CV hash, Formspree endpoint, and valid six-page sitemap. Whitespace checks passed.
+- Browser services remain unavailable, so rendered layouts and third-party widget execution were not rechecked. No form submission or email was sent. Existing unrelated local changes are preserved.
+
+### Remaining work
+
+- Publish and verify the refreshed Social Media page, Books page, and sitemap.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
