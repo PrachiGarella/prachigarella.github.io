@@ -936,7 +936,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the refreshed Social Media page, Books page, and sitemap.
+- None. Published in commit `398c9bc`; live Social Media and Books HTML match the checked local files byte for byte. The sitemap also matches when fetched with a cache-busting version query. Deployment run: https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/38798851608. Browser rendering remains unverified as noted above.
 
 ## Entry template
 
