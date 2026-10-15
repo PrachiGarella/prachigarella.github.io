@@ -912,7 +912,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish the changes and verify the live files.
+- None. Published in commit `0d9403d`. The live homepage, Research page, versioned CV download, and sitemap all return successfully and match the local files byte for byte. GitHub Pages run: https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/38797978055. Rendered website checks remain unavailable as noted above.
 
 ## Entry template
 
