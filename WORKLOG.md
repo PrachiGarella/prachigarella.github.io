@@ -971,6 +971,24 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `f95cb55`; the live Research page and stylesheet both match the local files byte for byte.
 
+## 2026-10-16 — Add upcoming November 17 public talk
+
+### Completed
+
+- Added “Do We Live in a Multiverse?” as a dedicated upcoming event above the past After5 talks, with the November 17, 2026 date, Houston venue/address, event and talk times, 21+ requirement, summary, and direct ticket link.
+- Added an upcoming-talk navigation link and homepage notice. Updated the Outreach sitemap date.
+
+### Validation and observations
+
+- Verified the title, speaker, date, venue, and schedule against the user-supplied [Eventbrite listing](https://www.eventbrite.com/e/after5houston-do-we-live-in-a-multiverse-tickets-2003217186530), including its structured event data. The event is 6–8 p.m. CST; the talk is 6:30–7:30 p.m.
+- Preserved both past talks and their photos. Used the existing responsive card styling for the upcoming listing.
+- HTML structure, IDs, ARIA targets, local links/anchors, sitemap, and whitespace checks passed. Rendered browser layout was not checked. No tickets were purchased or forms submitted.
+- Preserved unrelated local changes.
+
+### Remaining work
+
+- Publish and verify the updated homepage and Outreach page.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
