@@ -987,7 +987,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the updated homepage and Outreach page.
+- None. Published in commit `57028f2`; the live homepage and Outreach page both match the updated local files byte for byte.
 
 ## Entry template
 
