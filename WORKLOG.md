@@ -969,7 +969,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the updated Research page and stylesheet.
+- None. Published in commit `f95cb55`; the live Research page and stylesheet both match the local files byte for byte.
 
 ## Entry template
 
