@@ -989,6 +989,21 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `57028f2`; the live homepage and Outreach page both match the updated local files byte for byte.
 
+## 2026-10-16 — Simplify upcoming talk listing
+
+### Completed
+
+- Reduced the upcoming multiverse talk card to its title, date, event time, location, and event-ticket link, as requested.
+- Removed the description, topic tags, and additional attendance/schedule paragraph. Retained the verified November 17 date and 6–8 p.m. CST event time.
+
+### Validation and observations
+
+- HTML structure, IDs, ARIA targets, local links/anchors, and whitespace checks passed. Existing past-talk listings and unrelated local changes are preserved.
+
+### Remaining work
+
+- Publish and verify the simplified listing.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
