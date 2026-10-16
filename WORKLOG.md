@@ -938,6 +938,22 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `398c9bc`; live Social Media and Books HTML match the checked local files byte for byte. The sitemap also matches when fetched with a cache-busting version query. Deployment run: https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/38798851608. Browser rendering remains unverified as noted above.
 
+## 2026-10-16 — Add hiking to hobbies
+
+### Completed
+
+- Added hiking to the homepage’s “Beyond the equations” list of personal interests at the user’s request.
+- Updated the homepage sitemap modification date.
+
+### Validation and observations
+
+- Confirmed the targeted text replacement and preserved the homepage’s CRLF line endings. Whitespace checks passed.
+- This is a text-only change; no layout or functionality changes were needed. Existing unrelated local changes remain untouched.
+
+### Remaining work
+
+- Publish and verify the updated homepage.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
