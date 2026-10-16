@@ -952,7 +952,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the updated homepage.
+- None. Published in commit `a8a347b`; the live homepage matches the updated local file byte for byte, including hiking in the personal interests list.
 
 ## Entry template
 
