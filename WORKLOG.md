@@ -1002,7 +1002,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Publish and verify the simplified listing.
+- None. Published in commit `ea188b6`; the live Outreach page matches the simplified local file byte for byte.
 
 ## Entry template
 
