@@ -1009,6 +1009,11 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 - Changed the section heading to “Past public talks” at the user’s request.
 - Verified the exact text replacement and whitespace. Published in commit `84e2ba7`; the live Outreach page matches the local file byte for byte.
 
+## 2026-10-16 — Remove past-talks introduction
+
+- Removed the sentence beginning “Big questions about the universe” beneath “Past public talks,” as requested.
+- Exact removal and whitespace checked. Live verification pending.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
