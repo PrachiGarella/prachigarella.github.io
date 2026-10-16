@@ -1004,6 +1004,11 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `ea188b6`; the live Outreach page matches the simplified local file byte for byte.
 
+## 2026-10-16 — Rename past-talks heading
+
+- Changed the section heading to “Past public talks” at the user’s request.
+- Verified the exact text replacement and whitespace. Publication verification pending.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
