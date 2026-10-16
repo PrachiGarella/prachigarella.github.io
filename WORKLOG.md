@@ -1007,7 +1007,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 ## 2026-10-16 — Rename past-talks heading
 
 - Changed the section heading to “Past public talks” at the user’s request.
-- Verified the exact text replacement and whitespace. Publication verification pending.
+- Verified the exact text replacement and whitespace. Published in commit `84e2ba7`; the live Outreach page matches the local file byte for byte.
 
 ## Entry template
 
