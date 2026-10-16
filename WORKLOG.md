@@ -954,6 +954,23 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - None. Published in commit `a8a347b`; the live homepage matches the updated local file byte for byte, including hiking in the personal interests list.
 
+## 2026-10-16 — Reorder research interests and add AI
+
+### Completed
+
+- Renamed the interests section to “Other Research Interests,” added Artificial Intelligence (AI), and moved the complete list below Publications and Preprints, before Academic Genealogy.
+- Added spacing between the research introduction and publications, versioned the research stylesheet, and updated the Research sitemap date.
+
+### Validation and observations
+
+- Confirmed all six existing interests remain, AI appears once, and all four publication entries precede the interests section.
+- HTML structure, local links, ARIA targets, and whitespace checks passed. Rendered browser layout was not checked.
+- Preserved unrelated local changes.
+
+### Remaining work
+
+- Publish and verify the updated Research page and stylesheet.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
