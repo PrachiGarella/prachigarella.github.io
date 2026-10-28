@@ -1036,6 +1036,41 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 - Published with explicit user approval in commit `33e17d6`. [GitHub Pages deployment 40742621941](https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/40742621941) completed successfully. The live Social Media page, sitemap, and all three new preview images match the local files byte for byte. No publication work remains. Goodreads/X freshness and rendered browser checks remain unavailable as described above.
 
+## 2026-10-28 — Retry Goodreads verification
+
+### Completed
+
+- Retried the public profile, current/completed shelves, individual AI Ethics and Orwell reviews, and alternate RSS formats at the user's request.
+- The directly fetched public profile is current: it shows AI Ethics as currently reading with progress of page 63 of 248 on October 25. It also displays Mahabharata Unravelled II and Six Not So Easy Pieces; this is only a partial view of six current reads.
+
+### Validation and observations
+
+- Shelf and individual-review requests redirect to sign-in. RSS requests still return 404. The profile does not expose the latest completed books, so absence of Orwell from its partial display does not establish completion.
+- No browser session is available to check signed-in shelves. No website content or reading-list verification date was changed based on incomplete evidence.
+
+### Remaining work
+
+- Asked the user for books completed since October 15, personal ratings, and finish dates so the four-card selection can be updated accurately. This retry is recorded locally.
+
+## 2026-10-28 — Update books from supplied Goodreads screenshot
+
+### Completed
+
+- Read the user-supplied IMG_8221.heic screenshot of the Goodreads Read shelf. Confirmed Down and Out in Paris and London: 3/5, finished October 25; Of Mice and Men: 4/5, finished October 23; What I Talk About When I Talk About Running: 3.5/5, finished October 22.
+- Updated the four-card Book Blog to feature AI Ethics (still currently reading, confirmed from the public profile) and those three newest completed books, in descending completion order. Added verified Goodreads covers for the two new titles, accurate ratings including a half star, completion dates, and book links. Retained the known Orwell review link; no new personal-review IDs were inferred.
+- Updated the reading-list check date and Books sitemap date. The screenshot itself remains private and is not included in the website repository.
+- The Stranger and The Woman Destroyed rotate out of the featured selection. Preserve The Woman Destroyed's user-supplied 5/5 if it is featured again. The new screenshot shows The Stranger at 4.5/5 (not the previously recorded 4/5), with the same September 28 finish date; use the newer evidence for future display.
+
+### Validation and observations
+
+- Visually inspected the supplied screenshot and both new cover files. Covers come from the official Goodreads book pages and match the screenshot editions.
+- The current-read confirmation comes from the directly fetched public profile; completed-book ratings/dates come from the user-supplied screenshot, not the unavailable RSS feed. No community ratings were substituted.
+- Preserve unrelated local changes. Browser rendering remains unavailable in this session.
+
+### Remaining work
+
+- Validate the edited page, publish under the user's existing publication authorization, and verify the live files.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
