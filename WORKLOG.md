@@ -1034,7 +1034,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- User explicitly approved publication after the initial automatic approval review block. Publish the prepared update and verify live contents. Goodreads/X freshness and rendered browser checks remain unavailable as described above.
+- Published with explicit user approval in commit `33e17d6`. [GitHub Pages deployment 40742621941](https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/40742621941) completed successfully. The live Social Media page, sitemap, and all three new preview images match the local files byte for byte. No publication work remains. Goodreads/X freshness and rendered browser checks remain unavailable as described above.
 
 ## Entry template
 
