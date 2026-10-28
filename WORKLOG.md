@@ -1014,6 +1014,28 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 - Removed the sentence beginning “Big questions about the universe” beneath “Past public talks,” as requested.
 - Exact removal and whitespace checked. Published in commit `bccbada`; the live Outreach page matches the local file byte for byte.
 
+## 2026-10-28 — Refresh Instagram and audit current content
+
+### Completed
+
+- Refreshed Social-Media.html with three verified Instagram carousels: October 24 pumpkin outing, October 21 final-year physics PhD reflection, and October 19 zoo outing. Downloaded and visually inspected their three preview images and added descriptive alternative text.
+- Preserved six cards with four science/research posts and two personal posts, newest first. The two new personal posts fall within October 15–28; replaced both September personal selections and the oldest science card. Retained the October 7 AI post, October 6 After5 reel, and September 21 physics reel.
+- Updated the Social Media sitemap date. Preserved the four selected books, the user-supplied 5/5 rating, existing X embeds, upcoming November 17 talk, and future-improvement suggestions.
+
+### Validation and observations
+
+- Used the Windsor.ai Instagram skill and discovered account, fields, and options before querying August 1–October 28. Returned 25 posts with fetch timestamp October 28 at 17:02:55 UTC; separately verified all three new posts are carousels. No forced refresh or Instagram write was used.
+- Official podcast RSS still lists Scott Aaronson as the newest episode (Season 3, Episode 1). INSPIRE's author API returns the same four papers and publication statuses; no research or podcast change was needed.
+- Goodreads RSS URLs returned 404, and the available indexed profile was older than the last verified reading list. X's direct profile response requires sign-in to see posts. Retained existing book/X content and the October 15 reading check date rather than claiming a successful current verification.
+- The existing November 17 event remains future-dated. The Eventbrite response did not provide usable event details for a fresh verification. No CV replacement was identified; the existing verified PDF remains unchanged.
+- All six public pages passed balanced-tag, duplicate-attribute/ID, ARIA reference, image-alt, local-file and internal-anchor checks. Verified six ordered Instagram cards, four X embeds, fourteen podcast players, preserved book rating/Formspree endpoint, and six sitemap entries. Whitespace checks passed with CRLF recognized.
+- No browser provider is available, so rendered layouts and third-party widgets were not retested. No form submissions or messages were sent. Existing unrelated PDF deletion, .DS_Store changes, and HEIC images remain untouched.
+- Fetched origin and confirmed main matches origin/main before publication.
+
+### Remaining work
+
+- User explicitly approved publication after the initial automatic approval review block. Publish the prepared update and verify live contents. Goodreads/X freshness and rendered browser checks remain unavailable as described above.
+
 ## Entry template
 
 Copy this template for subsequent sessions and place new entries above this section. Dates use the project’s local timezone, America/Chicago.
