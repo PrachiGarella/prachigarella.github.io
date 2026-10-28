@@ -1069,7 +1069,7 @@ Running record of work on Prachi Garella’s personal website. Append an entry a
 
 ### Remaining work
 
-- Validate the edited page, publish under the user's existing publication authorization, and verify the live files.
+- None. HTML structure, unique IDs/attributes, ARIA targets, local assets/anchors, four-card counts, dates/ratings, half-star glyph availability, unchanged form endpoint, sitemap, and whitespace checks passed. Published commit `e5cfc4d`; [GitHub Pages deployment 40776933994](https://github.com/PrachiGarella/prachigarella.github.io/actions/runs/40776933994) completed successfully. Live Books HTML, sitemap, and both new cover images match the local files byte for byte. Rendered browser checks remain unavailable.
 
 ## Entry template
 
